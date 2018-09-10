@@ -1,3 +1,3 @@
 # jacquema.gitlab.io
 
-GitLab page
+GitLab page at gitlab.inria.fr
