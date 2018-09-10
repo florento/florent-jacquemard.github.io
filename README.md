@@ -3,4 +3,3 @@
 GitLab page at gitlab.inria.fr
 
 
-
