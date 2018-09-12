@@ -19,38 +19,38 @@
 - project: ACCESS (ARC Inria) 
   role: coordinator
   duration: 2010 &mdash; 2011
-  description: action de recherche Collaborative involving the teams Cassis, Pareo (Nancy), Mostrare (Lille) and Dahu (Saclay), on the theme Access Control Policies for XML, Verification, Enforcement and Collaborative Edition.
+  description: Action de Recherche Collaborative involving the teams Cassis, Pareo (Nancy), Mostrare (Lille) and Dahu (Saclay), on the theme Access Control Policies for XML, Verification, Enforcement and Collaborative Edition.
 
 - project: Brick (Inria-DGRSRT)
   role: coordinator for the french partner 
   duration: 2010 &mdash; 2011
   # url: "#"
-  description: bilateral project (Inria-DGRSRT program) between the teams Cassis (Nancy, Inria), Dahu (Saclay, Inria) and team Digital Security (Tunis, Sup’Com) on the theme Formal verification of Web Services Security, XML Access Control Policies and Firewalls.
+  description: Bilateral project (Inria-DGRSRT program) between the teams Cassis (Nancy, Inria), Dahu (Saclay, Inria) and team Digital Security (Tunis, Sup’Com) on the theme Formal verification of Web Services Security, XML Access Control Policies and Firewalls.
   
 - project: FireB (Inria-DGRSRT)
   role: coordinator for the french partner 
   duration: 2008 &mdash; 2009
   # url: "#"
-  description: bilateral project (Inria-DGRSRT program) between the teams Cassis (Nancy, Inria), Dahu (Saclay, Inria) and team Digital Security (Tunis, Sup’Com) on the thema automated verification of firewall conformance to access control policies.
+  description: Bilateral project (Inria-DGRSRT program) between the teams Cassis (Nancy, Inria), Dahu (Saclay, Inria) and team Digital Security (Tunis, Sup’Com) on the thema automated verification of firewall conformance to access control policies.
   
 - project: SyDRA (Inria-DGRSRT)
   role: coordinator for the french side 
   duration: 2006 &mdash; 2007
   # url: "#"
-  description: project between the team Secsi (Saclay, Inria), the LaBRI (U. Bordeaux) and the team Digital Security (Tunis, Sup’Com) on the theme Automated inductive theorem proving techniques for the validation of protocols and distributed systems
+  description: Project between the team Secsi (Saclay, Inria), the LaBRI (U. Bordeaux) and the team Digital Security (Tunis, Sup’Com) on the theme Automated inductive theorem proving techniques for the validation of protocols and distributed systems
 
 
 - project: RNTL Rossignol
   role: coordinator for the partner LSV/ENS Cachan 
   duration: 2003 &mdash; 2006
   # url: "#"
-  description: algebraic properties and probabilistic models of security protocols.
+  description: Algebraic properties and probabilistic models of security protocols.
 
 - project: RNTL EVA 
   role: responsible for the industrial partner Trusted Logic, responsible for the academic partner LSV/ENS Cachan 
   duration: 2000 &mdash; 2001 (at Trusted Logic) and 2002-2003 (at LSV)
   # url: "#"
-  description: explanation and verification of cryptographic protocols.
+  description: Explanation and verification of cryptographic protocols.
   
 
   
