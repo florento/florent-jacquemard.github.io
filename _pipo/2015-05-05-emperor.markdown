@@ -1,9 +1,0 @@
----
-layout: post
-title: Machin
-date: 2015-07-06 07:59:00
----
-
-## premier de la classe
-texte de test    
-
