@@ -28,11 +28,30 @@
   role: Principal Investigator
   description: project internal funded by Ircam for the development of an OpenMusic Library on Rhythm Quantification, in collaboration with composers and musicologists.
 
+# Musical (RNSC)
+- project: MusICAL: Interaction Calcul Algorithmique et Langages appliqués à la Musique.
+  duration: 2015
+  url: "http://repmus.ircam.fr/musical/home"
+  description: thematic network of the RNSC (National Network on Complex Systems) involving Ircam (UMR 9912 STMS), AlgoMus from Universities Lille 1 and Picardie Jules Verne,
+LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Lyon), IReMus from Universities Paris-Sorbonne / CNRS / BnF and UMI UMMISCO IRD / UPMC.
+
 # PHC Amadeus LETITBE 
 - project: LETITBE (Partenariat Hubert Curien Amadeus - France-Austria)
   duration: 2015 &mdash; 2016
   role: responsible of the french side of the project
   description: 2 years partnership between the Computational Systems group at the Software Systems Center of Salzburg University and Inria’s team Mutant at Ircam, Paris, on Logical Execution Time For Interactive Music Systems. The main objective of the project was the application to the development of interactive music systems of programming paradigms and formal techniques and tools for real-time critical embedded software. The PhD of Pierre Donat-Bouillud has started during this project.
+
+# ANR JCJCJ Jean EFFICACe
+- project: EFFICACe (ANR JCJC SIMI 2)
+  duration: 2013-2015
+  url: "http://repmus.ircam.fr/efficace/home"
+  description: collaboration to a project leaded by Jean Bresson, at Ircam, on  computation, time and interactions in computer-aided music composition.
+
+# ANR Inedit  
+- project: INEDIT (ANR ConInt)
+  duration: 2012-2015
+  url: "http://inedit.ircam.fr"
+  description: project between Ircam (UMR 9912 STMS), LaBRI (University Bordeaux) and Grame (Centre National de Création Musicale, Lyon) on authoring of time and interaction in real-time computer music.   
 
 # ARC ACCESS
 - project: ACCESS (ARC Inria) 
@@ -81,7 +100,6 @@
 # GioQoso
 
 # ADT Antescofo (Inria)
-# Musical (RNSC)
 # EFFICACe ACI JCJC Jean
 # ANR Inedit
 # Inriart (?)
