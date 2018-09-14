@@ -32,8 +32,7 @@
 - project: MusICAL - Interaction Calcul Algorithmique et Langages appliqués à la Musique.
   duration: 2015
   url: "http://repmus.ircam.fr/musical/home"
-  description: thematic network of the RNSC (National Network on Complex Systems) involving Ircam (UMR 9912 STMS), AlgoMus from Universities Lille 1 and Picardie Jules Verne,
-LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Lyon), IReMus from Universities Paris-Sorbonne / CNRS / BnF and UMI UMMISCO IRD / UPMC.
+  description: thematic network of the RNSC (National Network on Complex Systems) involving Ircam (UMR 9912 STMS), AlgoMus from Universities Lille 1 and Picardie Jules Verne, LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Lyon), IReMus from Universities Paris-Sorbonne / CNRS / BnF and UMI UMMISCO IRD / UPMC.
 
 # PHC Amadeus LETITBE 
 - project: LETITBE (Partenariat Hubert Curien Amadeus - France-Austria)
@@ -112,11 +111,6 @@ LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Ly
 # GioQoso
 
 # ADT Antescofo (Inria)
-# EFFICACe ACI JCJC Jean
-# ANR Inedit
-# Inriart (?)
-# FOX
-# WebDam
 # ANR Avote 2007
 # PFC systematics
 # AVISS FET Open Michael
