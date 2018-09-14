@@ -96,7 +96,7 @@
   role: coordinator for the french side 
   duration: 2006 &mdash; 2007
   # url: "#"
-  description: Project between the team Secsi (Saclay, Inria), the LaBRI (U. Bordeaux) and the team Digital Security (Tunis, Sup’Com) on the theme Automated inductive theorem proving techniques for the validation of protocols and distributed systems
+  description: Project between the team Secsi (Saclay, Inria), the LaBRI (U. Bordeaux) and the team Digital Security (Tunis, Sup’Com) on the theme Automated inductive theorem proving techniques for the validation of protocols and distributed systems.
 
 # ANR AVOTE
 - project: AVOTÉ (ANR Sesur)
@@ -124,6 +124,11 @@
   # url: "#"
   description: project between LSV (ENS Cachan), VERIMAG (Grenoble) and Trusted Logic SA (Versailles) on Explanation and verification of cryptographic protocols.
 
+# FET Open AVISS Michael 
+- project: AVISS (IST FP6 FET-open)
+  duration: 2000 &mdash; 2001
+  role: contribution to the preparation and submission.
+  description:  1 year assessment project between Universitat Freiburg, University Genova, Inria team Protheo at LORIA, Nancy on Automated Verification of Infinite State Systems. It has been  followed by the IST FET-open project AVISPA involving the same partners. http://www.avispa-project.org
 
 # societe analyse
 # PFC systematics
