@@ -53,7 +53,17 @@ LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Ly
   url: "http://inedit.ircam.fr"
   description: project between Ircam (UMR 9912 STMS), LaBRI (University Bordeaux) and Grame (Centre National de Création Musicale, Lyon) on authoring of time and interaction in real-time computer music.   
 
+# FOX
+- project: FOX (STREP FP7 ICT - FET-open)
+  duration: 2008-2010
+  url: "http://fox7.eu"
+  description: research network involving team Dahu (Inria), University of Oxford, Dortmund T. University, The University of Edinburgh, Universiteit van Amsterdam, Hasselt University, Uniwersytet Warszawski.
 
+# WebDam  European Research Council
+- project: Webdam (ERC)
+  duration: 2009-2013
+  url: "http://webdam.inria.fr/wordpress/index.html"
+  description: participation to the Advanced Investigator Webdam with prime investigator Serge Abiteboul, on the theme Foundation of Web data management.
 
 # ARC ACCESS
 - project: ACCESS (ARC Inria) 
