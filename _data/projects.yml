@@ -3,8 +3,13 @@
 
 
 # Yamaha
+- project: Jido Sayfu  (grant of the Yamaha Music Foundation)
+  url: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
+  duration: 04-2017 &mdash; 04-2018
+  description: Grant of one year by the Yamaha Music Foundation, for a collaboration with Nagoya University and Ircam on Rhythm Transcription (coordinator: Prof. Masahiko Sakai, Nagoya University).
+
 - project: Jido Sayfu 採譜  (grant of the Yamaha Music Foundation)
-  duration: 04/2017 &mdash; 04/2018
+  duration: 04-2017 &mdash; 04-2018
   url: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
   description: Grant of one year by the Yamaha Music Foundation, for a collaboration with Nagoya University and Ircam on Rhythm Transcription (coordinator: Prof. Masahiko Sakai, Nagoya University).
 
@@ -21,7 +26,7 @@
   description: 18 months exploratory project between IReMus, Ircam/STMS and CNAM-CEDRIC on Music Information Retrieval in Polyphonic Corpora.
 
 # UPI Ircam rhythm
- - project: RQ (Ircam Unité-Projet Innovation)
+- project: RQ (Ircam Unité-Projet Innovation)
   duration: 2016
   url: "http://repmus.ircam.fr/cao/rq"
   role: Principal Investigator
