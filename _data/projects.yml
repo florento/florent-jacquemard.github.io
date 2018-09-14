@@ -115,7 +115,7 @@
 - project: PROUVE (RNTL)  
   duration: 2003 &mdash; 2006
   url: "http://www.lsv.fr/Projects/prouve/"
-  description : project between CRIL Technologies, France Telecom R&D, LORIA Inria Lorraine, Inria team SECSI at LSV ENS Cachan, Verimag (Grenoble) on Cryptographic Protocols: Automated Verification Tools.
+  description : project between CRIL Technologies, France Telecom R&D, LORIA Inria Lorraine, Inria team SECSI at LSV ENS Cachan, Verimag (Grenoble) on Automated Verification Tools for Cryptographic Protocols.
 
 # RNTL EVA
 - project: EVA (RNTL network)
