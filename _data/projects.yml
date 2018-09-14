@@ -35,16 +35,16 @@
   description: project internal funded by Ircam for the development of an OpenMusic Library on Rhythm Quantification, in collaboration with composers and musicologists.
 
 # Musical (RNSC)
-- project: MusICAL - Interaction Calcul Algorithmique et Langages appliqués à la Musique.
+- project: MusICAL (RNSC)
   duration: 2015
   url: "http://repmus.ircam.fr/musical/home"
-  description: thematic network of the RNSC (National Network on Complex Systems) involving Ircam (UMR 9912 STMS), AlgoMus from Universities Lille 1 and Picardie Jules Verne, LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Lyon), IReMus from Universities Paris-Sorbonne / CNRS / BnF and UMI UMMISCO IRD / UPMC.
+  description: thematic network of the RNSC (National Network on Complex Systems) on interaction algorithmic composition and languages applied to music, involving Ircam (UMR 9912 STMS), AlgoMus from Universities Lille 1 and Picardie Jules Verne, LaBRI form University Bordeaux, Grame (Centre National de Création Musicale, Lyon), IReMus from Universities Paris-Sorbonne / CNRS / BnF and UMI UMMISCO IRD / UPMC.
 
 # PHC Amadeus LETITBE 
-- project: LETITBE (Partenariat Hubert Curien Amadeus - France-Austria)
+- project: LETITBE (PHC Amadeus - France-Austria)
   duration: 2015 &mdash; 2016
-  role: responsible of the french side of the project
-  description: 2 years partnership between the Computational Systems group at the Software Systems Center of Salzburg University and Inria’s team Mutant at Ircam, Paris, on Logical Execution Time For Interactive Music Systems. The main objective of the project was the application to the development of interactive music systems of programming paradigms and formal techniques and tools for real-time critical embedded software. The PhD of Pierre Donat-Bouillud has started during this project.
+  role: responsible for the branch partner
+  description: 2 years partnership (Partenariat Hubert Curien Amadeus) between the Computational Systems group at the Software Systems Center of Salzburg University and Inria’s team Mutant at Ircam, Paris, on Logical Execution Time For Interactive Music Systems. The main objective of the project was the application to the development of interactive music systems of programming paradigms and formal techniques and tools for real-time critical embedded software. The PhD of Pierre Donat-Bouillud has started during this project.
 
 # ANR JCJCJ Jean EFFICACe
 - project: EFFICACe (ANR JCJC SIMI 2)
