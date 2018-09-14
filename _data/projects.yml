@@ -2,13 +2,18 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 
-# Yamaha
+# Yamaha MF
 - project: Jido Sayfu 採譜  (grant of the Yamaha Music Foundation)
   duration: 04-2017 &mdash; 04-2018
   url: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
   description: Grant of one year by the Yamaha Music Foundation, for a collaboration with Nagoya University and Ircam on Rhythm Transcription (coordinator Prof. Masahiko Sakai, Nagoya University).
 
-
+# GioQoso
+- project: GioQoso (CNRS defi Mastodons 2016)
+  duration: 2016-2018
+  url: "https://gioqoso.irisa.fr"
+  description: project between French National Library BnF Paris, Vertigo team in Cedric CNAM, CESR Tours, IReMus Paris, team DKM/Shaman at Irisa, Lannion on methods and tools for the quality management of data in collaborative corpora of digital music scores.
+  
 # MuNIR co-supervision of PhD funded
 - project: Munir (ANR-FRQSC-2)
   duration: 2017 &mdash; 2020
@@ -106,16 +111,17 @@
   # url: "#"
   description: project between LSV (ENS Cachan), VERIMAG (Grenoble) and Trusted Logic SA (Versaille) on Explanation and verification of cryptographic protocols.
 
-# IFIP WG 1.6
 # societe analyse
 # GioQoso
-
-# ADT Antescofo (Inria)
 # ANR Avote 2007
 # PFC systematics
 # AVISS FET Open Michael
 # Nancy Region (cf. O. Bournez)
 # network for postdoc
+
+
+# IFIP WG 1.6
+# ADT Antescofo (Inria)
 
 
 
