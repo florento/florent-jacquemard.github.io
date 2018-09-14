@@ -3,12 +3,6 @@
 
 
 # Yamaha
-- project: Jido Sayfu (grant of the Yamaha Music Foundation)
-  duration: 04-2017 &mdash; 04-2018
-  url: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
-  description: Grant of one year by the Yamaha Music Foundation, for a collaboration with Nagoya University and Ircam on Rhythm Transcription (coordinator Prof. Masahiko Sakai, Nagoya University).
-
-  
 - project: Jido Sayfu 採譜  (grant of the Yamaha Music Foundation)
   duration: 04-2017 &mdash; 04-2018
   url: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
@@ -18,12 +12,13 @@
 # MuNIR co-supervision of PhD funded
 - project: Munir (ANR-FRQSC-2)
   duration: 2017 &mdash; 2020
+  url: "http://munir.cnam.fr"
   description: project between CEDRIC/CNAM and Mc Gill and Montréal U. on Music Notation Information Retrieval. I co-direct, with Philippe Rigaux at CNAM, the PhD of Francesco Foscarin on transcription, funded by this project.
 
 
 # PolyMIR convergence / emergence Sorbonne
 - project: PolyMIR (emergence program, Sorbonne Universités) 
-  date: 2017 &mdash; 2018
+  duration: 2017 &mdash; 2018
   description: 18 months exploratory project between IReMus, Ircam/STMS and CNAM-CEDRIC on Music Information Retrieval in Polyphonic Corpora.
 
 # UPI Ircam rhythm
@@ -36,20 +31,21 @@
 # PHC Amadeus LETITBE 
 - project: LETITBE (Partenariat Hubert Curien Amadeus - France-Austria)
   duration: 2015 &mdash; 2016
-  role: responsible for the branch partner
+  role: responsible of the french side of the project
   description: 2 years partnership between the Computational Systems group at the Software Systems Center of Salzburg University and Inria’s team Mutant at Ircam, Paris, on Logical Execution Time For Interactive Music Systems. The main objective of the project was the application to the development of interactive music systems of programming paradigms and formal techniques and tools for real-time critical embedded software. The PhD of Pierre Donat-Bouillud has started during this project.
 
 # ARC ACCESS
 - project: ACCESS (ARC Inria) 
   role: coordinator
   duration: 2010 &mdash; 2011
+  url: "http://acxml.gforge.inria.fr"
   description: Action de Recherche Collaborative involving the teams Cassis, Pareo (Nancy), Mostrare (Lille) and Dahu (Saclay), on the theme Access Control Policies for XML, Verification, Enforcement and Collaborative Edition.
 
 # STIC Tunisie 2010
 - project: Brick (Inria-DGRSRT)
   role: coordinator for the french partner 
   duration: 2010 &mdash; 2011
-  # url: "#"
+  url: "http://acxml.gforge.inria.fr/brick/"
   description: Bilateral project (Inria-DGRSRT program) between the teams Cassis (Nancy, Inria), Dahu (Saclay, Inria) and team Digital Security (Tunis, Sup’Com) on the theme Formal verification of Web Services Security, XML Access Control Policies and Firewalls.
   
 # STIC Tunisie 2008
