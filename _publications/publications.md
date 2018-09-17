@@ -7,5 +7,3 @@ A publication list (since 2007) from HAL (using HAL-INRIA environment for archiv
 
 Habilitation a diriger des rechechers (2001).
 
-
-
