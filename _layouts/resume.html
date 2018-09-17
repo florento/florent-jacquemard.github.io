@@ -105,9 +105,11 @@
           <h2>Research</h2>
         </header>
 
+        {% for researchitem in site.research %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-         {% include_relative research.html %}
+          <p>{{ researchitem.content | markdownify }}</p>
         </div><!-- end of resume-item -->
+        {% endfor %}
 
       </section>
       <!-- end Research -->

@@ -1,5 +1,4 @@
 ---
-permalink: /research/
 title: research
 description: research interests
 ---
