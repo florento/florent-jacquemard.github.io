@@ -129,6 +129,24 @@
         </div><!-- end of resume-item -->
         {% endfor %}
       </section>
+      <!-- end Publis -->
+      {% endif %}
+
+
+      {% if site.resume_section_software %}
+      <!-- begin Publis -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Software</h2>
+        </header>
+
+        {% for soft in site.software reversed %}
+        <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+          <p>{{ soft.content | markdownify }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+      </section>
       <!-- end Research -->
       {% endif %}
 
