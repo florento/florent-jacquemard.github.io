@@ -82,5 +82,10 @@ collections:
   research:
     output: true
     permalink: /#:title
-
+  publications:
+    output: true
+    permalink: /#:title
+  software:
+    output: true
+    permalink: /#:title
 
