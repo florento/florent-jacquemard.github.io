@@ -97,6 +97,23 @@
       {% endif %}
 
 
+      {% if site.resume_section_research %}
+      <!-- begin Research -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Research</h2>
+        </header>
+
+        <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+         {% include research.html %}
+        </div><!-- end of resume-item -->
+
+      </section>
+      <!-- end Research -->
+      {% endif %}
+
+
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -113,6 +130,7 @@
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
+
 
       </section>
       <!-- end Projects -->

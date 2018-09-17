@@ -4,6 +4,19 @@
 
 ![img](images/screenshot.png)
 
+## sources
+
+* [resume template for jekyll](http://resume-template.joelglovier.com) - [github](https://github.com/jglovier/resume-template)
+* [resume startbootstrap theme](https://startbootstrap.com/template-overviews/resume/)
+
+
+## revision details
+
+* _config-template.yml is the original config file from [resume template for jekyll](http://resume-template.joelglovier.com)
+* _config.yml is a revision with new contents
+* _layouts/resume-template.html is the original html from [resume template for jekyll](http://resume-template.joelglovier.com)
+* _layouts/resume.html is a  modified version to fit with my content and the style of [resume startbootstrap theme](https://startbootstrap.com/template-overviews/resume/)
+* 
 
 
 

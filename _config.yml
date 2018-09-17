@@ -20,7 +20,7 @@ highlighter: rouge
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Florent Jacquemard"
-resume_title:                   "VP of Global Performance Management"
+resume_title:                   "Research Scientist at Inria"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "florent.jacquemard@inria.fr"
@@ -38,13 +38,13 @@ resume_header_intro: "<p>This is the executive summary. You should write a few b
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+# resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
 resume_section_experience:      false
 resume_section_education:       false
-resume_section_research:        false
+resume_section_research:        true
 resume_section_publications:    false
 resume_section_software:        false
 resume_section_projects:        true
