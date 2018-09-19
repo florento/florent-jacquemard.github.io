@@ -1,0 +1,192 @@
+# Students
+
+
+# PhD
+
+- name: Francesco Foscarin
+  degree: Phd
+  duration: 2017 &mdash; 2020
+  title: Langages a priori en transcription musicale
+  codir: Philippe Rigaux
+  school: CNAM, EDITE Paris
+
+- name: Pierre Donat-Bouillud
+  degree: Phd
+  duration: 2016 &mdash; 2019 
+  title: Modélisation, analyses et exécution de systèmes musicaux interactifs
+  school: Ircam, EDITE Paris
+
+- name: Clément Poncelet Sanchez
+  degree: Phd
+  duration: 2013 &mdash; 2016 
+  title: Méthodes formelles d’analyse d’interactions homme-système dans des scénarios temporels complexes
+  url: https://tel.archives-ouvertes.fr/tel-01528954
+  school: Ircam, EDITE Paris
+  alumni: Clement is currently in post-doc in the Computational Systems group at the Software Systems Center of Salzburg University.
+
+- name: Camille Vacher
+  degree: Phd
+  duration: 2007 &mdash; 2010
+  title: Tree Automata with Global Constraints for the verification of security properties.
+  url: https://tel.archives-ouvertes.fr/tel-00598494
+  school: ENS Cachan
+
+- name: Stéphanie Delaune
+  degree: Phd
+  duration: 2003 &mdash; 2006
+  title: Verification of cryptographic protocols with algebraic properties
+  url: https://tel.archives-ouvertes.fr/tel-00132677
+  codir: Hubert Comon-Lundh, Francis Klay
+  school: ENS Cachan
+  alumni: Stéphanie is now CNRS senior research scientist at Irisa, Rennes.
+
+
+# Master and Bachelor interns
+
+- name: Henry Boisgibault
+  duration: 2017
+  degree: M1
+  codir: Philippe Rigaux
+  school: SupElec, internship at CNAM
+  title: Mesures de similarité rythmique dans les bases de partitions numériques
+
+- name: Florent Mercier
+  duration: 2017
+  degree: Master
+  codir: Jean Bresson
+  school: U. Paris 11, internship at Ircam
+  title: Representation des données musicales rythmiques
+
+- name: Pierre Donat-Bouillud 
+  duration: 2016
+  degree: Master
+  codir: Arshia Cont
+  school: ENS Rennes, internship at Ircam
+  title: Multimedia scheduling for interactive multimedia systems
+
+- name: Adrien Ycart
+  duration: 2015
+  degree: Master
+  school: SupTelecom, intership at Ircam
+  title: Rhythm Quantisation
+
+- name: Clément Poncelet Sanchez
+  duration: 2014
+  degree: Master
+  title: Environnement de test pour un système temps-réel de performance en musique mixte
+  school: U. Paris 6, Ircam
+
+- name: Adrien Maire
+  duration: 2013
+  degree: L3
+  school: ENS Cachan, internship at Ircam
+  title: Quantification musicale avec apprentissage sur des exemples
+
+- name: Pierre Donat-Bouillud 
+  duration: 2013
+  degree: L3
+  school: ENS Rennes, internship at Ircam
+  url: https://hal.inria.fr/hal-00870104
+  title: Transcription rythmique dans OpenMusic
+
+- name: Léa Fanchon
+  duration: 2012
+  degree: Master
+  school: École Centrale, intership at Ircam
+  title: Analyse statique des paramètre performatifs dans les partitions de musique mixte
+
+- name: Guillaume Baudard
+  duration: 2012
+  degree: Master
+  school: ENS Rennes, intership at Ircam
+  title: Antescofo - vers une programmation synchrone
+
+- name: Jose Écheveste
+  duration: 2011
+  degree: Master
+  codir: Arshia Cont
+  school: Ircam
+  title: Étude des processus de synchronisation et coordination temps réel musicale pour l’accompagnement automatique
+
+- name: Adrien Boiret 
+  degree: Master
+  duration: 2010
+  codir: Luc Segoufin 
+  school: ENS Cachan
+  title: Grammaires hors-contexte d’arbres de rang non borné
+
+- name: Jérémy Dimino 
+  degree: Master
+  duration: 2010
+  codir: Luc Segoufin
+  school: ENS Cachan
+  title: Automates d’arbres et données
+
+- name: Ryma Abassi
+  degree: Master
+  duration: 2010
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title: Vérification de politiques de sécurité XACML
+
+- name: Yoshiharu Kojima
+  degree: Master
+  duration: 2009
+  school: Nagoya University
+  title: Controlled rewriting
+
+- name: Sawsen Ben Nasr
+  degree: Master
+  duration: 2009
+  school: ENSI Tunis, internship at LSV, ENS Cachan
+  title: Validation of a framework for automated inductive theorem proving
+
+- name: NihelBenYoussef
+  degree: Master
+  duration: 2008
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title : Vérification de la conformité et de la complétude des règles de filtrage d’un firewall par rapport à une politique de sécurité
+
+- name: Hedi Benzina
+  duration: 2008
+  degree: Master
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title: Conception et réalisation d’un système de démonstration automatique par récurrence
+
+- name: Mohamed Anis Benelbahri
+  duration: 2008
+  degree: Master
+  school: Sup’Com Tunis, internship at LSV, ENS Cachan
+  title: Validation des règles de configuration d'un firewall
+
+- name: Camille Vacher 
+  degree: Master
+  duration: 2007
+  school: ENS Cachan
+  title: Automates d’arbres à mémoire d’ordre supérieur
+
+- name: Nicolas Perrin
+  degree: L3
+  duration: 2006
+  codir: Hubert Comon
+  school: ENS Lyon, internship at LSV, ENS Cachan
+  title: Visibly Tree Automata
+
+- name: Stéphanie Delaune
+  degree: Master
+  duration: 2003
+  school: ENS Cachan
+  title: Décision de la sûreté des protocoles contre les attaques par dictionnaire
+
+- name: Sanar Sfar
+  degree: Master
+  school: Sup'Com Tunis, internship at LORIA, Nancy
+  duration: 1999
+  title: Specification et certification du protocole de telecommunication Kermit a l’aide du demonstrateur automatique par recurrence Spike.
+
+- name: Véronique Cortier
+  degree: L3
+  duration: 1998 
+  school: ENS Cachan, internship at MPI-I Saarbrücken
+  title: Complexité de problèmes de décision en unification rigide
+
+
