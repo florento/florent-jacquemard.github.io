@@ -46,7 +46,7 @@ resume_section_experience:      false
 resume_section_education:       false
 resume_section_research:        true
 resume_section_publications:    true
-resume_section_software:        true
+resume_section_software:        false
 resume_section_projects:        true
 resume_section_teatching:       false
 resume_section_community:       false
