@@ -160,10 +160,12 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          {% if project.role %}<h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>{% endif %}
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.name }}{% endif %} 
+          (project.network)</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+          {% if project.title %}<h4 class="resume-item-details" itemprop="description">{{ project.title }}</h4>{% endif %}
+          {% if project.role %}<h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>{% endif %}
+          <p class="resume-item-copy">{{ project.content | markdownify }}</p>
         </div>
         {% endfor %}
       </section>
