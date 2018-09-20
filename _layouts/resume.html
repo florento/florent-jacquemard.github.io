@@ -160,11 +160,12 @@
         {% for student in site.data.students-phd %}
         <div class="resume-item">
           <h4 class="resume-item-details" itemprop="description">{{ student.name }} 
-              ({{ student.school}}) &bull; {{ student.duration}}.</h4>
+              ({{ student.school}}) &bull; {{ student.duration}}</h4>
           <p class="resume-item-copy">
           {% if student.url %}<a href="{{ student.url }}">{{ student.title }}.</a>{% else %}{{ project.title }}.{% endif %}   
-          {% if student.codir %}class="resume-item-copy">co-supervised with {{ student.codir }}.{% endif %}
-          {% if student.alumni %}{{ student.alumni | markdownify }}{% endif %}</p>
+          {% if student.codir %}class="resume-item-copy"> co-supervised with {{ student.codir }}.{% endif %}
+          {% if student.alumni %}{{ student.alumni | markdownify }}{% endif %}
+          </p>
         </div>
         {% endfor %}
 
