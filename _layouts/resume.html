@@ -156,13 +156,11 @@
         <header class="section-header">
           <h2>Projects</h2>
         </header>
-        <p>1111</p>
 
         {% for project in site.projects reversed %}
-        <p>2222</p>
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %} (project.network)</h3>
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %} ({{ project.network }})</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.duration }}</h4>
           {% if project.title %}<h4 class="resume-item-details" itemprop="description">{{ project.title }}</h4>{% endif %}
           {% if project.role %}<h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>{% endif %}
