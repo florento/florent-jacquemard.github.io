@@ -86,8 +86,7 @@ collections:
     output: true
     permalink: /#:title
   projects:
-    output: true
-    permalink: /#:title    
+
   software:
     output: true
     permalink: /#:title
