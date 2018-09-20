@@ -156,15 +156,17 @@
           <h2>Students</h2>
         </header>
 
-        <h3> PhD Students</h3>
+        <h2> PhD Students</h2>
         {% for student in site.data.students-phd %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ student.name }}</h4>
-          <p class="resume-item-copy">{{ student.duration }}</p>
+          <h4 class="resume-item-title">{{ student.name }} ({{ student.school}}) {{ student.duration}}.</h4>
+          <h4 class="resume-item-title" itemprop="name">{% if student.url %}<a href="{{ student.url }}">{{ student.title }}</a>{% else %}{{ project.title }}{% endif %}</h4>      
+          {% if student.codir %}<p class="resume-item-copy">co-supervised with {{ student.codir }}</p>{% endif %}
+          {% if student.alumni %}<p class="resume-item-copy">{{ student.alumni | markdownify }}</p>{% endif %}
         </div>
         {% endfor %}
 
-        <h3> Master and Bachelor Students</h3>
+        <h2> Master and Bachelor Students</h2>
         {% for student in site.data.students %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ student.name }}</h4>
