@@ -140,7 +140,7 @@
           <h2>Software</h2>
         </header>
 
-        {% for soft in site.software reversed %}
+        {% for soft in site.software %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">
           <p>{{ soft.content | markdownify }}</p>
         </div><!-- end of resume-item -->
@@ -156,8 +156,10 @@
         <header class="section-header">
           <h2>Projects</h2>
         </header>
+        <p>1111</p>
 
         {% for project in site.projects reversed %}
+        <p>2222</p>
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.name }}{% endif %} 
