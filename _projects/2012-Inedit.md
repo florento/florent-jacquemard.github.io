@@ -1,4 +1,3 @@
-
 ---
 name: Inedit 
 url: "http://inedit.ircam.fr"

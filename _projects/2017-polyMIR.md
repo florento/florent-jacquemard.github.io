@@ -1,5 +1,3 @@
-
-
 ---
 name: PolyMIR 
 network: emergence Sorbonne Universités

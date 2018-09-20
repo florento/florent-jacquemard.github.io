@@ -1,5 +1,3 @@
-
-
 ---
 name: Rossignol 
 url: "http://www.lsv.fr/Projects/anr-avote/"

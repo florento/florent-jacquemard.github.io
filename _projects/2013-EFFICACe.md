@@ -1,4 +1,3 @@
-
 ---
 name: EFFICACe 
 url: "http://repmus.ircam.fr/efficace/home"

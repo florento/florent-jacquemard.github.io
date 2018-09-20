@@ -1,5 +1,3 @@
-
-
 ---
 name: Webdam 
 url: "http://webdam.inria.fr/wordpress/index.html"

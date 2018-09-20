@@ -1,4 +1,3 @@
-
 ---
 name: MusICAL 
 url: "http://repmus.ircam.fr/musical/home"

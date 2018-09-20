@@ -1,5 +1,3 @@
-
-
 ---
 name: GioQoso 
 url: "https://gioqoso.irisa.fr"

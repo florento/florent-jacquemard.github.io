@@ -1,4 +1,3 @@
-
 ---
 name: AVOTÉ 
 url: "http://www.lsv.fr/Projects/anr-avote/"
