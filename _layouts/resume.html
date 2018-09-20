@@ -159,8 +159,9 @@
         <h3> PhD Students</h3>
         {% for student in site.data.students-phd %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ student.name }} ({{ student.school}}). {{ student.duration}}.</h4>
-          <h4 class="resume-item-details" itemprop="name">{% if student.url %}<a href="{{ student.url }}">{{ student.title }}</a>{% else %}{{ project.title }}{% endif %}</h4>      
+          <h4 class="resume-item-title" itemprop="name">{{ student.name }}</h4>
+          <h4 class="resume-item-details">({{ student.school}}) {{ student.duration}}.</h4>
+          {% if student.url %}<a href="{{ student.url }}">{{ student.title }}</a>{% else %}{{ project.title }}{% endif %}   
           {% if student.codir %}<p class="resume-item-copy">co-supervised with {{ student.codir }}</p>{% endif %}
           {% if student.alumni %}<p class="resume-item-copy">{{ student.alumni | markdownify }}</p>{% endif %}
         </div>
