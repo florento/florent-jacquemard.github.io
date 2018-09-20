@@ -1,0 +1,40 @@
+# PhD Students
+
+
+
+- name: Francesco Foscarin
+  degree: Phd
+  duration: 2017 &mdash; 2020
+  title: Langages a priori en transcription musicale
+  codir: Philippe Rigaux
+  school: CNAM, EDITE Paris
+
+- name: Pierre Donat-Bouillud
+  degree: Phd
+  duration: 2016 &mdash; 2019 
+  title: Modélisation, analyses et exécution de systèmes musicaux interactifs
+  school: Ircam, EDITE Paris
+
+- name: Clément Poncelet Sanchez
+  degree: Phd
+  duration: 2013 &mdash; 2016 
+  title: Méthodes formelles d’analyse d’interactions homme-système dans des scénarios temporels complexes
+  url: https://tel.archives-ouvertes.fr/tel-01528954
+  school: Ircam, EDITE Paris
+  alumni: Clement is currently in post-doc in the Computational Systems group at the Software Systems Center of Salzburg University.
+
+- name: Camille Vacher
+  degree: Phd
+  duration: 2007 &mdash; 2010
+  title: Tree Automata with Global Constraints for the verification of security properties.
+  url: https://tel.archives-ouvertes.fr/tel-00598494
+  school: ENS Cachan
+
+- name: Stéphanie Delaune
+  degree: Phd
+  duration: 2003 &mdash; 2006
+  title: Verification of cryptographic protocols with algebraic properties
+  url: https://tel.archives-ouvertes.fr/tel-00132677
+  codir: Hubert Comon-Lundh, Francis Klay
+  school: ENS Cachan
+  alumni: Stéphanie is now CNRS senior research scientist at Irisa, Rennes.
