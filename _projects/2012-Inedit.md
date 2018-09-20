@@ -2,7 +2,6 @@
 name: Inedit 
 url: "http://inedit.ircam.fr"
 network: ANR ConInt
-title: Music Notation Information Retrieval
 duration: 2012 &mdash; 2015
 ---
 

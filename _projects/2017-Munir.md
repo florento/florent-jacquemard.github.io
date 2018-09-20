@@ -2,7 +2,7 @@
 name: Munir 
 url: "http://munir.cnam.fr"
 network: ANR-FRQSC-2
-title: Music Notation Information Retrieval
+fullname: Music Notation Information Retrieval
 duration: 2017 &mdash; 2020
 ---
 

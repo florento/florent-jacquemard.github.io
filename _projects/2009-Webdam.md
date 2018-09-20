@@ -2,7 +2,6 @@
 name: Webdam 
 url: "http://webdam.inria.fr/wordpress/index.html"
 network: ERC
-title: Music Notation Information Retrieval
 duration: 2009 &mdash; 2013
 ---
 
