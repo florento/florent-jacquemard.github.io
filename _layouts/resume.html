@@ -149,6 +149,32 @@
       <!-- end Soft -->
       {% endif %}
 
+      {% if site.resume_section_students %}
+      <!-- begin Students -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Students</h2>
+        </header>
+
+        <h3> PhD Students</h3>
+        {% for student in site.data.students-phd %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ student.name }}</h4>
+          <p class="resume-item-copy">{{ student.duration }}</p>
+        </div>
+        {% endfor %}
+
+        <h3> Master and Bachelor Students</h3>
+        {% for student in site.data.students %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ student.name }}</h4>
+          <p class="resume-item-copy">{{ student.duration }}</p>
+        </div>
+        {% endfor %}
+      </section>
+      <!-- end Students -->
+      {% endif %}
+
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
@@ -160,8 +186,7 @@
         {% for project in site.projects reversed %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %} ({{ project.network }})</h3>
-          
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %} ({{ project.network }})</h3>        
           {% if project.fullname %}<h4 class="resume-item-details" itemprop="description">{{ project.fullname }}</h4>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.duration }}</h4>
           {% if project.role %}<h4 class="resume-item-details" itemprop="description">role: {{ project.role }}</h4>{% endif %}
