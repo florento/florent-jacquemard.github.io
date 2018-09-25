@@ -27,13 +27,15 @@
   duration: 2015
   degree: Master
   school: SupTelecom, intership at Ircam
-  title: Rhythm Quantisation
+  title: Interactive Rhythm Quantisation
+  url: https://hal.inria.fr/hal-01315689v2
 
 - name: Clément Poncelet Sanchez
   duration: 2014
   degree: Master
   title: Environnement de test pour un système temps-réel de performance en musique mixte
-  school: U. Paris 6, Ircam
+  url: https://hal.inria.fr/hal-01021617
+  school: UPMC, internship at Ircam
 
 - name: Adrien Maire
   duration: 2013
@@ -53,12 +55,14 @@
   degree: Master
   school: École Centrale, intership at Ircam
   title: Analyse statique des paramètre performatifs dans les partitions de musique mixte
+  url: https://hal.inria.fr/hal-00829821v2
 
 - name: Guillaume Baudard
   duration: 2012
   degree: Master
   school: ENS Rennes, intership at Ircam
   title: Antescofo - vers une programmation synchrone
+  url: https://hal.inria.fr/hal-00850299
 
 - name: Jose Écheveste
   duration: 2011
