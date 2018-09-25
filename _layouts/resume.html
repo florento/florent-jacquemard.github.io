@@ -172,8 +172,12 @@
         <h2> Master and Bachelor Students</h2>
         {% for student in site.data.students %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ student.name }}</h4>
-          <p class="resume-item-copy">{{ student.duration }}</p>
+          <h4 class="resume-item-details" itemprop="description">{{ student.name }} 
+              ({% if student.degree %}{{ student.degree }}{% endif %} 
+               {{ student.school}}) &bull; {{ student.duration}}</h4>
+          <p class="resume-item-copy">
+          {% if student.url %}<a href="{{ student.url }}">{{ student.title }}.</a>{% else %}{{ student.title }}.{% endif %}
+          </p>
         </div>
         {% endfor %}
       </section>
