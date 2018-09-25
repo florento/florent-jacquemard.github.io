@@ -6,6 +6,11 @@
     - award: Summa Cumme Laude graduate
   summary: If you had any meaningful roles at college, feel free to write about them here
 
+- degree: Habilitation a diriger des recherches, Computer Science
+  uni: École Normale Supérieure de Cachan
+  years: 2011
+  summary: Extended Tree Automata Models for the Verification of Infinite State Systems.
+
 - degree: High School Diploma
   uni: Springfield High School
   year: 2004
