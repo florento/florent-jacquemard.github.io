@@ -99,7 +99,6 @@
       {% if site.resume_section_research %}
       <!-- begin Research -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Research</h2>
         </header>
@@ -117,7 +116,6 @@
       {% if site.resume_section_publications %}
       <!-- begin Publis -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Publications</h2>
         </header>
@@ -135,7 +133,6 @@
       {% if site.resume_section_software %}
       <!-- begin Soft -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Software</h2>
         </header>
@@ -148,6 +145,7 @@
       </section>
       <!-- end Soft -->
       {% endif %}
+
 
       {% if site.resume_section_students %}
       <!-- begin Students -->
@@ -185,6 +183,23 @@
       {% endif %}
 
 
+ {% if site.resume_section_teaching %}
+      <!-- begin Teaching -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Teaching</h2>
+        </header>
+
+        {% for teach in site.teaching %}
+        <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+          <p>{{ teach.content | markdownify }}</p>
+       </div><!-- end of resume-item -->
+        {% endfor %}
+      </section>
+      <!-- end Teaching -->
+      {% endif %}
+
+
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -205,6 +220,23 @@
       </section>
       <!-- end Projects -->
       {% endif %}
+
+
+       {% if site.resume_section_community %}
+      <!-- begin Community -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Professional Activities</h2>
+        </header>
+        {% for item in site.community %}
+        <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+          <p>{{ item.content | markdownify }}</p>
+       </div><!-- end of resume-item -->
+        {% endfor %}
+      </section>
+      <!-- end Community -->
+      {% endif %}
+
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
