@@ -1,19 +1,13 @@
 # Degree
-- degree: Habilitation a diriger des recherches, Computer Science
-uni: École Normale Supérieure de Cachan
-years: 2011
-summary: Extended Tree Automata Models for the Verification of Infinite State Systems.
+- degree: Bachelor of Arts, Human Rights
+  uni: Yale University
+  year: 2004 &mdash; 2008
+  awards:
+    - award: Summa Cumme Laude graduate
+  summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: PhD in Computer Science
-uni: University Paris XI, Orsay, France
-years: 1993 &mdash; 1996
-summary: Tree Automata and Term Rewriting, supervisor Hubert Comon, examination board Bruno Courcelle (president), Sophie Tison, Michael
-Rusinowitch (reviewers), Hubert Comon, Harald Ganzinger, Brigitte Rozoy (examiners).
-
-- degree: Master Thesis in Computer Science
-years: 1993
-uni: University Paris XI, Orsay, France
-
-- degree: Master in Fundamental and Applied Mathematics and Computer Science of Paris
-years: 1992 &mdash; 1993
-uni: École Normale Supérieure de Paris, France
+- degree: High School Diploma
+  uni: Springfield High School
+  year: 2004
+  award: Most likely to succeed
+  summary: You can choose to have either a single or multiple awards

@@ -10,12 +10,3 @@ bla bla
 
 
 
-phd jury
-
-Carles Creus
-Nicolas Guiomard Kagan (report)
-Hedi Benzina
-Emil Andriescu
-Etienne Dubourg (report)
-Vincent Hugo
-
