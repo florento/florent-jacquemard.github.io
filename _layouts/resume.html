@@ -163,7 +163,7 @@
               ({{ student.school}}) &bull; {{ student.duration}}</h4>
           <p class="resume-item-copy">
           {% if student.url %}<a href="{{ student.url }}">{{ student.title }}.</a>{% else %}{{ student.title }}.{% endif %}<br>
-          {% if student.codir %} co-supervised with {{ student.codir }}.<br>{% endif %}
+          {% if student.codir %} co-supervised with {{ student.codir }}.<br>{% else %}{% endif %}
           {% if student.alumni %}{{ student.alumni | markdownify }}{% endif %}
           </p>
         </div>
