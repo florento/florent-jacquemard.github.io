@@ -3,24 +3,13 @@ title: teaching
 description: teaching activities
 ---
 
-bla bla
+* Lecture on tree automata theory at Master Parisien de Recherche en Informatique (MPRI) between 2006 and 2011 (36h/year).
 
-* item 1
-* item 2
+* Teaching assistant for the lecture of  Jean Goubault Larrecq on Lambda Calculus at Master Parisien de Recherche en Informatique (MPRI), École Normale Supérieure de Paris, between 2003 and 2006.
 
-Encadrement de 12 stages de L3, M1 ou projet de fin d’étude d’écoles d’ingénieur, dont 8 dans le cadre de projets
-bilatéraux avec la Tunisie.
+* Co-author of the collective online book [Tree Automata Techniques and Applications](http://tata.gforge.inria.fr/), widely used for teaching this discipline in universities.
 
-Cours de 36h/an sur la théorie des automates d’arbres au Master Parisien de Recherche en Informatique (MPRI) en M2 de 2006 à 2009 et en M1 en 2010 et 2011.
+* Lecture (6h) at the summer school VTSA 2011 (Verification Technology, Systems & Applications), Liège, Belgium, on Tree Automata Techniques for Infinite Systems Verification.
 
-Séances de TD pour un cours de Lambda Calcul de Jean Goubault Larrecq au Master Parisien de Recherche en Informatique de 2003 à 2006.
+* Lecture (3h) for the opning semester seminar 2017 at École Normale Supérieure Paris-Saclay.
 
-Co-auteur de l’ouvrage collectif en ligne Tree Automata Techniques and Applications, http://tata.gforge.inria.fr/, largement utilisé pour l’enseignement universitaire de cette discipline.
-
-Cours de 6h de l’école d’été VTSA 2011 (Verification Technology, Systems & Applications) à Liège sur les tech- niques d’automates d’arbres pour la vérification de systèmes infinis.
-
-Cours et séances de TD au Master Parisien de Recherche en Informatique (MPRI) sur la théorie des langages d’arbres et le lambda calcul, entre 2003 et 2011. 
-
-Cours d’écoles d’été jeunes chercheurs, VTSA 2011 (Verification Technology, Systems & Applications) 
-
-séminaire de rentrée 2017 de l’ENS Paris-Saclay.

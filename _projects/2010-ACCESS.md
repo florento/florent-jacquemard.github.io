@@ -6,4 +6,4 @@ role: coordinator
 duration: 2010 &mdash; 2011
 ---
 
-Action de Recherche Collaborative involving the teams Cassis, Pareo (Nancy), Mostrare (Lille) and Dahu (Saclay), on the theme Access Control Policies for XML, Verification, Enforcement and Collaborative Edition.
+Action de Recherche Collaborative involving the Inria teams Cassis and Pareo (Nancy), Mostrare (Lille) and Dahu (Saclay), on the theme Access Control Policies for XML, Verification, Enforcement and Collaborative Edition.

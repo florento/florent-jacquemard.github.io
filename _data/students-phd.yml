@@ -26,6 +26,7 @@
 - name: Camille Vacher
   degree: Phd
   duration: 2007 &mdash; 2010
+  titre: Automates d’arbres à contraintes globales pour la vérification de propriétés de sécurité
   title: Tree Automata with Global Constraints for the verification of security properties
   url: https://tel.archives-ouvertes.fr/tel-00598494
   school: ENS Cachan
@@ -34,6 +35,7 @@
   degree: Phd
   duration: 2003 &mdash; 2006
   title: Verification of cryptographic protocols with algebraic properties
+  titre: Vérification des protocoles cryptographiques et propriétés algébriques
   url: https://tel.archives-ouvertes.fr/tel-00132677
   codir: Hubert Comon-Lundh, Francis Klay
   school: ENS Cachan
