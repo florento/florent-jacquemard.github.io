@@ -70,6 +70,7 @@
   codir: Arshia Cont
   school: Ircam
   title: Étude des processus de synchronisation et coordination temps réel musicale pour l’accompagnement automatique
+  url: https://hal.inria.fr/hal-00642921
 
 - name: Adrien Boiret 
   degree: Master
@@ -84,18 +85,21 @@
   codir: Luc Segoufin
   school: ENS Cachan
   title: Automates d’arbres et données
+  url: https://hal.inria.fr/hal-00769249v3
 
 - name: Ryma Abassi
   degree: Master
   duration: 2010
   school: Sup’Com Tunis, internship at LSV, ENS Cachan
   title: Vérification de politiques de sécurité XACML
+  url: https://hal.inria.fr/inria-00578884
 
 - name: Yoshiharu Kojima
   degree: Master
   duration: 2009
   school: Nagoya University
-  title: Controlled rewriting
+  title: Controlled Term Rewriting
+  url: https://hal.inria.fr/hal-00643160
 
 - name: Sawsen Ben Nasr
   degree: Master
@@ -103,11 +107,12 @@
   school: ENSI Tunis, internship at LSV, ENS Cachan
   title: Validation of a framework for automated inductive theorem proving
 
-- name: NihelBenYoussef
+- name: Nihel Ben Youssef
   degree: Master
   duration: 2008
   school: Sup’Com Tunis, internship at LSV, ENS Cachan
   title : Vérification de la conformité et de la complétude des règles de filtrage d’un firewall par rapport à une politique de sécurité
+  url: https://hal.inria.fr/inria-00578926
 
 - name: Hedi Benzina
   duration: 2008
@@ -133,6 +138,7 @@
   codir: Hubert Comon
   school: ENS Lyon, internship at LSV, ENS Cachan
   title: Visibly Tree Automata
+  url: https://hal.inria.fr/inria-00579009
 
 - name: Stéphanie Delaune
   degree: Master
