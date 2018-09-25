@@ -1,19 +1,43 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Inria Paris, France
+  position: Research Scientist
+  duration: Jan, 2017 &mdash; Present
+  summary: Write about your core competencies in one or two sentences describing your position. 
+  If you held the position for a long time, it could be a longer section, including a couple bullet points	
+  <ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
 
+- company: Ircam, Inria Paris, France
+  position: Research Scientist in team Mutant
+  duration: Jan 2012 &mdash; Dec. 2016
+  summary: ...
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: LSV/ENS Cachan, Inria Saclay, France
+  position: Research Scientist in team Dahu
+  duration: Jan 2008 &mdash; Dec. 2011
+  summary: ...
+
+- company: LSV/ENS Cachan, Inria Saclay, France
+  position: Research Scientist in team SECSI
+  duration: May 2002 &mdash; Dec. 2007
+  summary: ...
+
+- company: Trusted Logic SA, Versailles, France
+  position: Research Engineer 
+  duration: Jan 2000 &mdash; Apr. 2002
+  summary: ...
+
+- company: LORIA, Inria Nancy, France
+  position: Research Scientist in team Protheo
+  duration: Oct. 1998 &mdash; Dec. 2000
+  summary: ...
+
+- company: Max Planck Institut für Informatik, Saarbrücken, Germany
+  position: Post-doctoral researcher in Programming Logic Group
+  duration: Jan. 1997 &mdash; Sept. 1998
+  summary: ...
+
+- company: SRI International Computer Science Laboratory Menlo Park, CA, USA
+  position: Research Fellow in project Maude
+  duration: Nov. 1996 &mdash; Dec. 1996
+  summary: ...
