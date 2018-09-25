@@ -162,9 +162,9 @@
           <h4 class="resume-item-details" itemprop="description">{{ student.name }} 
               ({{ student.school}}) &bull; {{ student.duration}}</h4>
           <p class="resume-item-copy">
-          {% if student.url %}<a href="{{ student.url }}">{{ student.title }}.</a>{% else %}{{ student.title }}.{% endif %}<br>
-          {% if student.codir %} co-supervised with {{ student.codir }}.<br>{% else %}{% endif %}
-          {% if student.alumni %}{{ student.alumni | markdownify }}{% endif %}
+          {% if student.url %}<a href="{{ student.url }}">{{ student.title }}.</a>{% else %}{{ student.title }}.{% endif %}
+          {% if student.codir %}<br>co-supervised with {{ student.codir }}.{% else %}{% endif %}
+          {% if student.alumni %}<br>{{ student.alumni | markdownify }}{% else %}{% endif %}
           </p>
         </div>
         {% endfor %}
