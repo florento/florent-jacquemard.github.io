@@ -1,6 +1,6 @@
 ---
 name: Rossignol 
-url: "http://www.lsv.fr/Projects/anr-avote/"
+link: "http://www.lsv.fr/Projects/anr-avote/"
 network: ACI Securite Informatique
 role: responsible for the partner LSV/ENS Cachan 
 duration: 2003 &mdash; 2006

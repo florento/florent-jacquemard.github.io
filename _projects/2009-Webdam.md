@@ -1,6 +1,6 @@
 ---
 name: Webdam 
-url: "http://webdam.inria.fr/wordpress/index.html"
+link: "http://webdam.inria.fr/wordpress/index.html"
 network: ERC
 duration: 2009 &mdash; 2013
 ---

@@ -36,7 +36,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
+          {{ site.resume_header_intro  | markdownify }}
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -113,20 +113,28 @@
       {% endif %}
 
 
-      {% if site.resume_section_publications %}
-      <!-- begin Publis -->
+      {% if site.resume_section_software %}
+      <!-- begin Soft -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Publications</h2>
+          <h2>Software</h2>
         </header>
 
-        {% for publi in site.publications %}
+        {% for soft in site.software reversed %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-          <p>{{ publi.content | markdownify }}</p>
-       </div><!-- end of resume-item -->
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">
+            {% if soft.link %}<a href="{{ soft.link }}">{{ soft.name }}</a>{% else %}{{ soft.name }}{% endif %}
+          </h3>        
+          <p>{% if soft.organization %}{{ soft.organization }}  &bull; {% endif %} 
+             {{ soft.duration }}
+             {% if soft.sources %} &bull; sources: <a href="{{ soft.sources }}">{{ soft.sources }}</a>{% endif %}
+          </p>
+          <p>{{ soft.content | markdownify }}</p>
+        </div><!-- end of resume-item -->
         {% endfor %}
       </section>
-      <!-- end Publis -->
+      <!-- end Soft -->
       {% endif %}
 
 
@@ -210,7 +218,7 @@
         {% for project in site.projects reversed %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %} ({{ project.network }})</h3>        
+          <h3 class="resume-item-title" itemprop="name">{% if project.link %}<a href="{{ project.link }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %} ({{ project.network }})</h3>        
           {% if project.fullname %}<h4 class="resume-item-details" itemprop="description">{{ project.fullname }}</h4>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.duration }}</h4>
           {% if project.role %}<h4 class="resume-item-details" itemprop="description">role: {{ project.role }}</h4>{% endif %}

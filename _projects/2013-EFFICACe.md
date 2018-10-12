@@ -1,6 +1,6 @@
 ---
 name: EFFICACe 
-url: "http://repmus.ircam.fr/efficace/home"
+link: "http://repmus.ircam.fr/efficace/home"
 network: ANR JCJC SIMI 2
 duration: 2013 &mdash; 2015
 ---

@@ -1,6 +1,6 @@
 ---
 name: AVOTÉ 
-url: "http://www.lsv.fr/Projects/anr-avote/"
+link: "http://www.lsv.fr/Projects/anr-avote/"
 network: ANR Sesur
 duration: 2007 &mdash; 2009
 ---

@@ -1,6 +1,6 @@
 ---
 name: ACCESS 
-url: "http://acxml.gforge.inria.fr"
+link: "http://acxml.gforge.inria.fr"
 network: ARC Inria
 role: coordinator
 duration: 2010 &mdash; 2011

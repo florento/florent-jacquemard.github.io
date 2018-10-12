@@ -1,6 +1,6 @@
 ---
 name: Jido Sayfu 採譜  
-url: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
+link: "http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html"
 fullname: Rhythm Transcription
 network: Yamaha Music Foundation
 duration: 04-2017 &mdash; 04-2018

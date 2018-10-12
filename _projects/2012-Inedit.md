@@ -1,6 +1,6 @@
 ---
 name: Inedit 
-url: "http://inedit.ircam.fr"
+link: "http://inedit.ircam.fr"
 network: ANR ConInt
 duration: 2012 &mdash; 2015
 ---

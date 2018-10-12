@@ -1,6 +1,6 @@
 ---
 name: Prouvé 
-url: "http://www.lsv.fr/Projects/prouve/"
+link: "http://www.lsv.fr/Projects/prouve/"
 network: RNTL
 duration: 2003 &mdash; 2006
 ---

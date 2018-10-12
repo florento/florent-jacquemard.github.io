@@ -1,6 +1,6 @@
 ---
 name: MusICAL 
-url: "http://repmus.ircam.fr/musical/home"
+link: "http://repmus.ircam.fr/musical/home"
 network: RNSC
 duration: 2015
 ---

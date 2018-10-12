@@ -1,6 +1,6 @@
 ---
 name: GioQoso 
-url: "https://gioqoso.irisa.fr"
+link: "https://gioqoso.irisa.fr"
 network: CNRS defi Mastodons 2016
 duration: 2016 &mdash; 2018
 ---
