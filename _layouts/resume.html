@@ -48,14 +48,16 @@
 
       </header>
 
-
+      <div class="title-bar no-print">
+      pipo
+      </div>
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2 id="experience">Experience</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -74,7 +76,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2 id="education">Education</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -100,7 +102,7 @@
       <!-- begin Research -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Research</h2>
+          <h2 id="research">Research</h2>
         </header>
 
         {% for researchitem in site.research %}
@@ -117,7 +119,7 @@
       <!-- begin Publis -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Publications</h2>
+          <h2 id="publications">Publications</h2>
         </header>
 
         {% for publi in site.publications %}
@@ -134,7 +136,7 @@
       <!-- begin Soft -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Software</h2>
+          <h2 id="software">Software</h2>
         </header>
 
         {% for soft in site.software reversed %}
@@ -159,7 +161,7 @@
       <!-- begin Students -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Students</h2>
+          <h2 id="students">Students</h2>
         </header>
 
         <h3><strong>PhD Students</strong></h3>
@@ -195,7 +197,7 @@
       <!-- begin Teaching -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Teaching</h2>
+          <h2 id="teaching">Teaching</h2>
         </header>
 
         {% for teachitem in site.teaching %}
@@ -212,7 +214,7 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2 id="projects">Projects</h2>
         </header>
 
         {% for project in site.projects reversed %}
@@ -234,7 +236,7 @@
       <!-- begin Community -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Community</h2>
+          <h2 id="community">Community</h2>
         </header>
         {% for item in site.community %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">
@@ -251,7 +253,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2 id="skills">Skills</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -269,7 +271,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2 id="recognition">Recognition</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
@@ -289,7 +291,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2 id="asso">Associations</h2>
         </header>
 
         {% for association in site.data.associations %}
@@ -309,7 +311,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2 id="outside">Outside Interests</h2>
         </header>
 
         <div class="resume-item">
@@ -329,7 +331,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Additional Links</h2>
+          <h2 id="links">Additional Links</h2>
         </header>
 
         <div class="resume-item">
