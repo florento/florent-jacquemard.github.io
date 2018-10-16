@@ -7,18 +7,13 @@ description: research interests
 My research project is concerned with  Computer Music and Digital Humanities, 
 more specifically with the processing of structured music data (*digital music scores*), 
 in particular I am currently working on the following problems:
-<!---  
-* the **creation** and **digitalisation** of music notation (assistance to composition and corpus captation), 
---->
+
+[comment]: # *  the **creation** and **digitalisation** of music notation (assistance to composition and corpus captation), 
 * music **transcription** ,
 * music score and corpus **analysis** (digital musicology), 
   and **melodic similarity** computation,
 * **information retrieval** in bases of music scores.
-<!--- 
-with a current focus on the two following applications:
-* automated music **transcription** and 
-* the computation of **melodic similarity**.
---->
+
 using on formal methods and tools from the following fundamental domains:
 * automata and **tree automata** theory, **weighted** and unweighted, 
 * **edit distances** between strings and trees, 
