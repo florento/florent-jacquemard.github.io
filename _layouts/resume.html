@@ -36,7 +36,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro  | markdownify }}
+          {{ site.resume_header_intro | markdownify }}
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -113,6 +113,23 @@
       {% endif %}
 
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publis -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for publi in site.publications %}
+        <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+          <p>{{ publi.content | markdownify }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+      </section>
+      <!-- end Publis -->
+      {% endif %}
+
+
       {% if site.resume_section_software %}
       <!-- begin Soft -->
       <section class="content-section">
@@ -138,23 +155,6 @@
       {% endif %}
 
 
-      {% if site.resume_section_software %}
-      <!-- begin Soft -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Software</h2>
-        </header>
-
-        {% for soft in site.software %}
-        <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-          <p>{{ soft.content | markdownify }}</p>
-        </div><!-- end of resume-item -->
-        {% endfor %}
-      </section>
-      <!-- end Soft -->
-      {% endif %}
-
-
       {% if site.resume_section_students %}
       <!-- begin Students -->
       <section class="content-section">
@@ -162,7 +162,7 @@
           <h2>Students</h2>
         </header>
 
-        <h3> PhD Students</h3>
+        <h3><strong>PhD Students</strong></h3>
         {% for student in site.data.students-phd %}
         <div class="resume-item">
           <h4 class="resume-item-details" itemprop="description">{{ student.name }} 
@@ -175,7 +175,7 @@
         </div>
         {% endfor %}
 
-        <h2> Master and Bachelor Students</h2>
+        <h3><strong>Master and Bachelor Students</strong></h3>
         {% for student in site.data.students %}
         <div class="resume-item">
           <h4 class="resume-item-details" itemprop="description">{{ student.name }} 
@@ -191,17 +191,17 @@
       {% endif %}
 
 
- {% if site.resume_section_teaching %}
+      {% if site.resume_section_teaching %}
       <!-- begin Teaching -->
       <section class="content-section">
         <header class="section-header">
           <h2>Teaching</h2>
         </header>
 
-        {% for teach in site.teaching %}
+        {% for teachitem in site.teaching %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-          <p>{{ teach.content | markdownify }}</p>
-       </div><!-- end of resume-item -->
+          <p>{{ teachitem.content | markdownify }}</p>
+        </div><!-- end of resume-item -->
         {% endfor %}
       </section>
       <!-- end Teaching -->
@@ -234,7 +234,7 @@
       <!-- begin Community -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Professional Activities</h2>
+          <h2>Community</h2>
         </header>
         {% for item in site.community %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">

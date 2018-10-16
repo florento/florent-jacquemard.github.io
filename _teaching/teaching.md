@@ -1,15 +1,19 @@
 ---
+permalink: /teaching/
 title: teaching
 description: teaching activities
 ---
 
-* Lecture on *Tree Automata Theory* at Master Parisien de Recherche en Informatique (MPRI) between 2006 and 2011 (36h/year).
+Some teaching activities:
 
-* Teaching assistant for the lecture of  Jean Goubault Larrecq on *Lambda Calculus* at Master Parisien de Recherche en Informatique (MPRI), École Normale Supérieure de Paris, between 2003 and 2006.
+* Lecture on _Tree Automata Theory_ at Master Parisien de Recherche en Informatique (MPRI) between 2006 and 2011 (36h/year).
 
-* Co-author of the collective online book [Tree Automata Techniques and Applications](http://tata.gforge.inria.fr/), widely used for teaching this discipline in universities.
+* Teaching assistant for the lecture of Jean Goubault Larrecq on _Lambda Calculus_ at Master Parisien de Recherche en Informatique (MPRI), École Normale Supérieure de Paris, between 2003 and 2006.
 
-* Lecture (6h) at the summer school VTSA 2011 (Verification Technology, Systems & Applications), Liège, Belgium, on *Tree Automata Techniques for Infinite Systems Verification*.
+* Co-author of the collective online book [_Tree Automata Techniques and Applications_](http://tata.gforge.inria.fr/), widely used for teaching this discipline in universities.
 
-* Lecture (3h) for the opning semester seminar 2017 at École Normale Supérieure Paris-Saclay, on *Music and Automata*.
+* lecture (3h) at the [International School on Rewriting](https://isr2019.inria.fr), 2019, on _Rewriting for Music_.
 
+* Lecture (3h) for the opening semester seminar 2017 at École Normale Supérieure Paris-Saclay, on _Music and Automata_.
+
+* Lecture (6h) at the summer school [VTSA 2011](https://resources.mpi-inf.mpg.de/departments/rg1/conferences/vtsa11/) (Verification Technology, Systems & Applications), Liège, Belgium, on _Tree Automata Techniques for Infinite Systems Verification_.

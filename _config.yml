@@ -43,8 +43,8 @@ resume_header_trotro: "<p>This is the executive summary. You should write a few 
 
 # Decide which sections to use
 # comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
+resume_section_experience:      false
+resume_section_education:       false
 resume_section_research:        true
 resume_section_publications:    true
 resume_section_software:        true
@@ -90,4 +90,5 @@ collections:
     permalink: /#:title
   projects:
   software:
-
+  teaching:
+  community:
