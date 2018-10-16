@@ -69,7 +69,8 @@ resume_social_links:
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/florentj"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://jacquema.gitlabpages.inria.fr"
+  #resume_website_url:           "https://jacquema.gitlabpages.inria.fr"
+  resume_cv_url:           "https://jacquema.gitlabpages.inria.fr/cv"
   #resume_medium_url:            "#"
 resume_print_social_links:      true
 
