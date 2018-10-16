@@ -52,7 +52,6 @@ resume_section_students:        true
 resume_section_teaching:        true
 resume_section_projects:        true
 resume_section_community:       true
-#
 resume_section_skills:          false
 resume_section_recognition:     false
 resume_section_links:           false
