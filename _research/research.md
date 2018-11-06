@@ -25,4 +25,3 @@ Formerly, I have worked on these formal methods and their application to the ver
 * verification of web data management systems and computer security at _LSV/ENS-Cachan_, 
 * automated deduction at _Inria Nancy_, _MPI-I Saarbrücken_, _SRI International, Stanford_,
 * development of secure embedded software components for smartcards and payment terminals at the company _Trusted Logic_.
-
