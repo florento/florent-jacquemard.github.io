@@ -21,8 +21,8 @@ using on formal methods and tools from the following fundamental domains:
 * term rewriting systems and automated deduction.
 
 Formerly, I have worked on these formal methods and their application to the verification of systems and software:
-* timed-testing of interactive music systems and Computer-Aided Composition at *[Ircam](https://www.ircam.fr)*, Paris (team [Repmus](http://repmus.ircam.fr)),
-* verification of web data management systems and computer security at *[LSV](http://www.lsv.fr)/ENS-Cachan*, 
-* automated deduction at *[Inria Nancy](http://www.loria.fr)*, *[MPI-I](https://www.mpi-inf.mpg.de)* Saarbrücken_, *[SRI International](http://www.csl.sri.com)*, Stanford_,
-* development of secure embedded software components for smartcards and payment terminals at the company *Trusted Logic*.
+* timed-testing of interactive music systems and Computer-Aided Composition at **[Ircam](https://www.ircam.fr)**, Paris (team [Repmus](http://repmus.ircam.fr)),
+* verification of web data management systems and computer security at **[LSV](http://www.lsv.fr)/ENS-Cachan**, 
+* automated deduction at **[Inria Nancy](http://www.loria.fr)**, **[MPI-I](https://www.mpi-inf.mpg.de)** Saarbrücken, **[SRI International](http://www.csl.sri.com)**, Stanford,
+* development of secure embedded software components for smartcards and payment terminals at the company **Trusted Logic**.
 
