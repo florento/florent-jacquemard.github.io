@@ -287,6 +287,24 @@
 
 
 
+  {% if site.resume_section_community %}
+  <!-- begin Community -->
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="community">
+    <div class="my-auto">
+      <h2 class="mb-5">Community</h2>
+
+      {% for item in site.community %}
+      <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+        <p  class="resume-centent mr-auto">{{ item.content | markdownify }}</p>
+      </div><!-- end of resume-item -->
+      {% endfor %}
+    </div>
+  </section>
+  <!-- end Community -->
+  {% endif %}
+
+
+
 </div><!--  end container-fluid  -->
 
 
