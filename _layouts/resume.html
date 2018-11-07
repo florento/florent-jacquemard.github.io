@@ -86,23 +86,41 @@
           <h1 class="mb-0">{{ site.resume_firstname }}
             <span class="text-primary">{{ site.resume_lastname }}</span>
           </h1>
-          <div class="subheading mb-5">{{ site.resume_contact_address }} · {{ site.resume_contact_telephone }} · {{ site.resume_contact_mobile }}
+          <div class="subheading mb-5">{{ site.resume_contact_address }} · {{ site.resume_contact_telephone }} · {{ site.resume_contact_mobile }} · 
             <a href="mailto:name@email.com">{{ site.resume_contact_emaila }}</a>
           </div>
           <p class="lead mb-5">{{ site.resume_header_introfull | markdownify }}</p>
           <div class="social-icons">
-            <a href="#">
+            {% if site.resume_social_links.resume_cv_url %}
+            <a href="{{ site.resume_social_links.resume_cv_url }}">
+                <i class="fab fa-cv"></i>
+              </a>   
+              {% endif %}                
+            {% if site.resume_social_links.resume_gitlab_url %}
+            <a href="{{ site.resume_social_links.resume_gitlab_url }}">
+              <i class="fab fa-gitlab"></i>
+            </a>   
+            {% endif %}
+            {% if site.resume_social_links.resume_github_url %}
+            <a href="{{ site.resume_social_links.resume_github_url }}">
+              <i class="fab fa-github"></i>
+            </a>   
+            {% endif %}
+            {% if site.resume_social_links.resume_linkedin_url %}
+            <a href="{{ site.resume_social_links.resume_linkedin_url }}">
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
+            {% endif %}          
+            {% if site.resume_social_links.resume_twitter_url %}
             <a href="#">
               <i class="fab fa-twitter"></i>
             </a>
+            {% endif %}
+            {% if site.resume_social_links.resume_facebook_url %}
             <a href="#">
               <i class="fab fa-facebook-f"></i>
             </a>
+            {% endif %}
           </div>
         </div>
       </section>
