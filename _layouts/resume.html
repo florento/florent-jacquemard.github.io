@@ -175,7 +175,7 @@
            <h3 class="mb-0" itemprop="name">
              {% if soft.link %}<a href="{{ soft.link }}">{{ soft.name }}</a>{% else %}{{ soft.name }}{% endif %}
            </h3>        
-           <div class="subheading mb-2">
+           <div class="subheading mb-3">
              {% if soft.organization %}{{ soft.organization }}  &bull; {% endif %} 
              {{ soft.duration }}
              {% if soft.sources %} &bull; sources: <a href="{{ soft.sources }}">{{ soft.sources }}</a>{% endif %}
@@ -188,6 +188,21 @@
   </section>
   <!-- end Soft -->
   {% endif %}
+
+
+  {% if site.resume_section_students %}
+  <!-- begin Students -->
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="students">
+      <div class="my-auto">
+          <h2 class="mb-5">Students</h2>
+
+          
+      </div>
+  </section>       
+
+  <!-- end Students -->
+  {% endif %}
+
 
 </div><!--  end container-fluid  -->
 
