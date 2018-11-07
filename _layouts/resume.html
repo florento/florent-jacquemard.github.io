@@ -264,8 +264,7 @@
       <h2 class="mb-5">Projects</h2>
 
       {% for project in site.projects reversed %}
-      <div class="resume-item  d-flex flex-column flex-md-row mb-5" itemtype="http://schema.org/CreativeWork">
-        <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+      <div class="resume-item d-flex flex-column flex-md-row mb-5" itemtype="http://schema.org/CreativeWork">
         <div class="resume-content mr-auto"></div>
           <h3 class="mb-0" itemprop="name">
             {% if project.link %}<a href="{{ project.link }}">{{ project.name }}</a>
