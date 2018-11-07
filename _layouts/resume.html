@@ -74,6 +74,11 @@
             <a class="nav-link js-scroll-trigger" href="#links">Links</a>
           </li>
           {% endif %}
+          {% if site.resume_social_links.resume_cv_url %}
+          <li class="nav-item">
+            <a href="{{ site.resume_social_links.resume_cv_url }}">CV</a>
+          </li>
+          {% endif %}  
         </ul>
       </div>
     </nav>
