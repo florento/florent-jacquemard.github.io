@@ -4,7 +4,7 @@ title: teaching
 description: teaching activities
 ---
 
-Some teaching activities:
+Some lectures and other teaching activities:
 
 * Lecture on _Tree Automata Theory_ at Master Parisien de Recherche en Informatique (MPRI) between 2006 and 2011 (36h/year).
 

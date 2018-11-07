@@ -138,7 +138,7 @@
       <h2 class="mb-5">Research</h2>
       {% for researchitem in site.research %}
       <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-        <p>{{ researchitem.content | markdownify }}</p>
+        <p class="resume-centent mr-auto">{{ researchitem.content | markdownify }}</p>
       </div><!-- end of resume-item -->
       {% endfor %}
     </div>
@@ -154,7 +154,7 @@
         <h2 class="mb-5">Publications</h2>
         {% for publi in site.publications %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-          <p>{{ publi.content | markdownify }}</p>
+          <p class="resume-centent mr-auto">{{ publi.content | markdownify }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
       </div>
@@ -244,15 +244,48 @@
   <!-- begin Teaching -->
   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="teaching">
     <div class="my-auto">
-    <h2 class="mb-5">Teaching</h2>
-    {% for teachitem in site.teaching %}
-    <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-      <p class="resume-centent mr-auto">{{ teachitem.content | markdownify }}</p>
-    </div><!-- end of resume-item -->
-    {% endfor %}
+      <h2 class="mb-5">Teaching</h2>
+      {% for teachitem in site.teaching %}
+      <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+        <p class="resume-centent mr-auto">{{ teachitem.content | markdownify }}</p>
+      </div><!-- end of resume-item -->
+      {% endfor %}
+    </div>
   </section>
   <!-- end Teaching -->
   {% endif %}
+
+
+
+  {% if site.resume_section_projects %}
+  <!-- begin Projects -->
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+    <div class="my-auto">
+      <h2 class="mb-5">Projects</h2>
+
+      {% for project in site.projects reversed %}
+      <div class="resume-item  d-flex flex-column flex-md-row mb-5" itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+        <div class="resume-content mr-auto"></div>
+          <h3 class="mb-0" itemprop="name">
+            {% if project.link %}<a href="{{ project.link }}">{{ project.name }}</a>
+            {% else %}{{ project.name }}{% endif %} 
+            ({{ project.network }})
+          </h3>        
+          {% if project.fullname %}<div class="subheading mb-3">{{ project.fullname }}</div>{% endif %}
+          {% if project.role %}<div class="subheading mb-3">role: {{ project.role }}</div>{% endif %}
+          <p class="resume-item-copy">{{ project.content | markdownify }}</p>
+        </div>
+        <div class="resume-date text-md-right">
+            <span class="text-primary">{{ project.duration }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  <!-- end Projects -->
+  {% endif %}
+
 
 
 </div><!--  end container-fluid  -->
