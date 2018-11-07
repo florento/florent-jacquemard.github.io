@@ -77,7 +77,7 @@
   duration: 2010
   codir: Luc Segoufin 
   school: ENS Cachan
-  title: Grammaires hors-contexte d’arbres de rang non borné
+  title: Grammaires hors-contexte d’arbres de rang non-borné
 
 - name: Jérémy Dimino 
   degree: Master
@@ -150,7 +150,7 @@
   degree: Master
   school: Sup'Com Tunis, internship at LORIA, Nancy
   duration: 1999
-  title: Specification et certification du protocole de telecommunication Kermit a l’aide du demonstrateur automatique par recurrence Spike.
+  title: Specification et certification du protocole de telecommunication Kermit a l’aide du demonstrateur automatique par recurrence Spike
 
 - name: Véronique Cortier
   degree: L3

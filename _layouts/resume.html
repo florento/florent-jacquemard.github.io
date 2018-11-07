@@ -211,8 +211,8 @@
             {% else %}
               {{ student.title }}.
             {% endif %}
-            {% if student.codir %}<br>co-supervised with {{ student.codir }}.{% else %}{% endif %}
-            {% if student.alumni %}<br>{{ student.alumni | markdownify }}{% else %}{% endif %}
+            {% if student.codir %}<br>co-supervised with {{ student.codir }}.{% endif %}
+            {% if student.alumni %}<br>{{ student.alumni }}{% endif %}
           </p>
         </div>
       </div>
