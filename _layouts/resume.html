@@ -173,14 +173,14 @@
          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
          <div class="resume-content mr-auto">
            <h3 class="mb-0" itemprop="name">
-            {% if soft.link %}<a href="{{ soft.link }}">{{ soft.name }}</a>{% else %}{{ soft.name }}{% endif %}
-            </h3>        
-            <div class="subheading mb-3">
-              {% if soft.organization %}{{ soft.organization }}  &bull; {% endif %} 
-              {{ soft.duration }}
-              {% if soft.sources %} &bull; sources: <a href="{{ soft.sources }}">{{ soft.sources }}</a>{% endif %}
-            </div>
-            <p>{{ soft.content | markdownify }}</p>
+             {% if soft.link %}<a href="{{ soft.link }}">{{ soft.name }}</a>{% else %}{{ soft.name }}{% endif %}
+           </h3>        
+           <div class="subheading mb-2">
+             {% if soft.organization %}{{ soft.organization }}  &bull; {% endif %} 
+             {{ soft.duration }}
+             {% if soft.sources %} &bull; sources: <a href="{{ soft.sources }}">{{ soft.sources }}</a>{% endif %}
+           </div>
+           <p>{{ soft.content | markdownify }}</p>
           </div><!-- end of resume-content -->
         </div><!-- end of resume-item -->
       {% endfor %}
