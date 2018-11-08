@@ -97,10 +97,11 @@
       </div>
       <!-- intro -->
       <p class="lead mb-5">{{ site.resume_header_introfull | markdownify }}</p>
+      <p class="resume-content mr-auto"> popopopo</p>
       <!-- news -->
-      {% for file in site.news %}
+      {% for fileitems in site.news %}
       <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-        <p class="resume-content mr-auto">{{ file.content | markdownify }}</p>
+        <p class="resume-content mr-auto">{{ fileitems.content | markdownify }}</p>
       </div><!-- end of resume-item -->
       {% endfor %}
       <!-- social links -->
@@ -139,6 +140,8 @@
     </div>
   </section>
   <!-- end About -->
+
+
 
   {% if site.resume_section_research %}
   <!-- begin Research -->
