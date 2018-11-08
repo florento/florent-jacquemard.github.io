@@ -86,6 +86,7 @@
 
 <div class="container-fluid p-0">
 
+  <!-- begin About -->
   <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
     <div class="my-auto">
       <h1 class="mb-0">{{ site.resume_firstname }}
@@ -94,7 +95,15 @@
       <div class="subheading mb-5">{{ site.resume_contact_address }} · {{ site.resume_contact_telephone }} · {{ site.resume_contact_mobile }} · 
         <a href="mailto:name@email.com">{{ site.resume_contact_emaila }}</a>
       </div>
+      <!-- intro -->
       <p class="lead mb-5">{{ site.resume_header_introfull | markdownify }}</p>
+      <!-- news -->
+      {% for file in site.news %}
+      <div class="resume-item" itemtype="http://schema.org/CreativeWork">
+        <p class="resume-content mr-auto">{{ file.content | markdownify }}</p>
+      </div><!-- end of resume-item -->
+      {% endfor %}
+      <!-- social links -->
       <div class="social-icons">
         {% if site.resume_social_links.resume_cv_url %}
         <a href="{{ site.resume_social_links.resume_cv_url }}">
@@ -129,7 +138,7 @@
       </div>
     </div>
   </section>
-
+  <!-- end About -->
 
   {% if site.resume_section_research %}
   <!-- begin Research -->
@@ -138,7 +147,7 @@
       <h2 class="mb-5">Research</h2>
       {% for researchitem in site.research %}
       <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-        <p class="resume-centent mr-auto">{{ researchitem.content | markdownify }}</p>
+        <p class="resume-content mr-auto">{{ researchitem.content | markdownify }}</p>
       </div><!-- end of resume-item -->
       {% endfor %}
     </div>
@@ -154,7 +163,7 @@
         <h2 class="mb-5">Publications</h2>
         {% for publi in site.publications %}
         <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-          <p class="resume-centent mr-auto">{{ publi.content | markdownify }}</p>
+          <p class="resume-content mr-auto">{{ publi.content | markdownify }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
       </div>
@@ -205,7 +214,7 @@
           <h4 class="mb-0" itemprop="description">
             {{ student.name }} ({{ student.school}}) &bull; {{ student.duration}}
           </h4>
-          <p class="resume-centent mr-auto">
+          <p class="resume-content mr-auto">
             {% if student.url %}
               <a href="{{ student.url }}">{{ student.title }}.</a>
             {% else %}
@@ -227,7 +236,7 @@
               ({% if student.degree %}{{ student.degree }}{% endif %} 
               {{ student.school}}) &bull; {{ student.duration}}
             </h4>
-            <p class="resume-centent mr-auto">
+            <p class="resume-content mr-auto">
               {% if student.url %}<a href="{{ student.url }}">{{ student.title }}.</a>
               {% else %}{{ student.title }}.{% endif %}
             </p>
@@ -247,7 +256,7 @@
       <h2 class="mb-5">Teaching</h2>
       {% for teachitem in site.teaching %}
       <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-        <p class="resume-centent mr-auto">{{ teachitem.content | markdownify }}</p>
+        <p class="resume-content mr-auto">{{ teachitem.content | markdownify }}</p>
       </div><!-- end of resume-item -->
       {% endfor %}
     </div>
@@ -295,7 +304,7 @@
 
       {% for item in site.community %}
       <div class="resume-item" itemtype="http://schema.org/CreativeWork">
-        <p  class="resume-centent mr-auto">{{ item.content | markdownify }}</p>
+        <p  class="resume-content mr-auto">{{ item.content | markdownify }}</p>
       </div><!-- end of resume-item -->
       {% endfor %}
     </div>
