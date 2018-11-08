@@ -89,6 +89,7 @@ resume_print_social_links:      true
 
 
 collections:
+  news:
   research:
     output: true
     permalink: /#:title
