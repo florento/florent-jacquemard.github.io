@@ -14,3 +14,4 @@ description: activities
 * current version of the [qparse](https://gitlab.inria.fr/qparse/qparselib) library for automated music transcription.
 * [final report](http://www.yamaha-mf.or.jp/shien/report/2017/sakai01.html) of our Yamaha Music Foundation grant with Masahiko Sakai, Nagoya University (in japanese).
 
+
