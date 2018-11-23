@@ -11,8 +11,7 @@ cache:
     - vendor/
 
 before_script:
-  - bundle install
-#  - bundle install --path vendor
+  - bundle install --path vendor
 
 # add a job called 'test'
 test:
