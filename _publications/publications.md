@@ -2,12 +2,10 @@
 title: publications
 description: publication list
 ---
-
-Selected publications in reverse chronological order 
-(in our community, the authors are generally listed by alphabetic ordering).
- 	
 	
-* [publication list](https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Florent+Jacquemard&annee_publideb=2007&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css) since 2007 from HAL (as provided by [HAL-INRIA](https://hal.inria.fr)).
+* list of [selected publications](https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Florent+Jacquemard&annee_publideb=2007&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css) since 2007 from HAL (as provided by [HAL-INRIA](https://hal.inria.fr)). In reverse chronological order 
+(in our community, the authors are generally listed by alphabetic ordering).
+
 
 * 3 representative publications (in computer music, XML processing and constrained tree automata theory):
   1. Clément Poncelet, Florent Jacquemard. [Model-Based Testing for Building Reliable Realtime Interactive Music Systems](https://hal.archives-ouvertes.fr/hal-01314969). Science of Computer Programming, 132 (2), pp.143-172, Elsevier, 2016.
