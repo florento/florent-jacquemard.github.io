@@ -18,5 +18,6 @@ description: publication list
       Luis Barguñó, Carlos Creus, Guillem Godoy, Florent Jacquemard, Camille Vacher. 
       Logical Methods in Computer Science, 9 (2), pp.1-39, 2013. 
 
+* online book [Tree Automata Techniques and Applications](http://tata.gforge.inria.fr) ([pdf]({{ site.url }}/files/tata.pdf)).
 
 * [Habilitation a diriger des recherches](https://tel.archives-ouvertes.fr/tel-00643595/file/plan.pdf) - 2011 ([slides]({{ site.url }}/files/slides/slides-hdr.pdf)).
