@@ -3,7 +3,10 @@ title: news
 description: activities
 ---
 
-* lecture at [ISR](https://isr2019.inria.fr) (International Summer School on Rewriting) in July 2019, on Rewriting and Music. Slides: [intro](files/ISR19RewritingMusic-part0.pdf) (examples in Computer Music), 
+* [paper](https://hal.inria.fr/hal-02267454) at [DLfM'19](https://dlfm.web.ox.ac.uk), 
+  on an algorithm for an analog of Unix diff (identification and visualization of differences) for XML music score files, 
+  with Francesco Foscarin and Raphaël Fournier-S’Niehotta.
+* slides of 2 lectures at [ISR](https://isr2019.inria.fr) (International Summer School on Rewriting) in July 2019, on Rewriting and Music: [intro](files/ISR19RewritingMusic-part0.pdf) (examples in Computer Music), 
 [part 1](files/ISR19RewritingMusic-part1.pdf) (weighted SRS and melodic distance computation), 
 [part 2](files/ISR19RewritingMusic-part2.pdf) (weighted TRS, music notation processing and automated music transcription).
 * paper at [SMC'19](http://smc2019.uma.es) on corpus-based inference of weighted grammars for rhythm representation: "[Modeling and Learning Rhythm Structure](https://hal.inria.fr/hal-02024437)" with Francesco Foscarin and Philippe Rigaux.
