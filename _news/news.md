@@ -11,6 +11,8 @@ description: activities
   - [paper](https://hal.inria.fr/hal-02267454) at [DLfM'19](https://dlfm.web.ox.ac.uk),
   - presentation at [ISMIR'19](https://ismir2019.ewi.tudelft.nl) LBD: ["Computation and Visualization of Differences between two XML Music Score Files"](https://hal.inria.fr/hal-02309923).
 
+
+
 * current version of the [qparse](https://gitlab.inria.fr/qparse/qparselib) library for automated music transcription.
 
 * paper at [SMC'19](http://smc2019.uma.es) on corpus-based inference of weighted grammars for rhythm representation: "[Modeling and Learning Rhythm Structure](https://hal.inria.fr/hal-02024437)" with Francesco Foscarin and Philippe Rigaux.
