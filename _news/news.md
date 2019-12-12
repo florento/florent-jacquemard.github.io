@@ -7,7 +7,7 @@ description: activities
 
 
 
-* [paper](https://hal.inria.fr/hal-01857267) on the computation of Montgeau-Sankoff edit-distances measuring melodic similarity, based on weighted automata techniques. To appear in Information & Computation.
+* [paper](https://hal.inria.fr/hal-01857267) on the computation of Montgeau-Sankoff edit-distances measuring melodic similarity, based on weighted automata techniques. To appear in [Information & Computation](https://www.journals.elsevier.com/information-and-computation).
 
   
 
