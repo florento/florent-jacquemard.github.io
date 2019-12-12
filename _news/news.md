@@ -5,6 +5,10 @@ description: activities
 
 * **research internship proposal**: [Automated Transcription of Jazz Soli](files/AutomatedTranscriptionJazzSoli.pdf).
 
+
+
+* [paper](https://hal.inria.fr/hal-01857267) on the computation of Montgeau-Sankoff edit-distances measuring melodic similarity, based on weighted automata techniques. To appear in Information & Computation.
+
   
 
 - algorithms and tool for the comparison of music score files: identification and visualization of differences, similarly to the Unix diff tool for text files (PhD work of Francesco Foscarin, in collaboration with Raphaël Fournier-S’Niehotta)
@@ -19,6 +23,5 @@ description: activities
 
 * paper at [MCM'19](https://mcm19.etsisi.upm.es) on rhythm transcription: "[A Parse-based Framework for Coupled Rhythm Quantization and Score Structuring](https://hal.inria.fr/hal-01988990)" with Francesco Foscarin, Philippe Rigaux and Masahiko Sakai ([slides](https://hal.inria.fr/hal-01988990v2/file/MCM-qparse-slides.pdf)).
 
-* [preprint](https://hal.inria.fr/hal-01857267) on the computation of Montgeau-Sankoff edit-distances measuring melodic similarity, based on weighted automata techniques.
-
   
+
