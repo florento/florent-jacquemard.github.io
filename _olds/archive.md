@@ -3,6 +3,12 @@ title: old news
 description: archive of deleted news items
 ---
 
+representative publication in computer music:
+   1. [Model-Based Testing for Building Reliable Realtime Interactive Music Systems](https://hal.archives-ouvertes.fr/hal-01314969).
+      Clément Poncelet, Florent Jacquemard. 
+      Science of Computer Programming, 132 (2), pp.143-172, Elsevier, 2016.
+
+
 - [poster] with Francesco Foscarin, Raphaël Fournier-S'Niehotta, Philippe Rigaux, at [DMRN+14](https://www.qmul.ac.uk/dmrn/dmrn-14/) Dec. 2019, Queen Mary University of London: “AMT for Musicians: Performed-MIDI-to-Score Transcription”.
 
 - algorithms and tool for the comparison of music score files: identification and visualization of differences, similarly to the Unix diff tool for text files.
