@@ -8,10 +8,12 @@ description: publication list
 
 
 - 3 representative publications (in computer music, XML processing and constrained tree automata theory):  
+>  a theoretical study of the [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit distance, designed for digital musicology
   1. [Weighted Automata Computation of Edit Distances with Consolidations and Fragmentations](https://hal.inria.fr/hal-01857267v4).  
      Mathieu Giraud, Florent Jacquemard.  
      Information and Computation, Elsevier, 2020.  
     *(a theoretical study of the [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit distance, designed for digital musicology)*
+>  on the expressiveness of a relevant fragment of XPath, the standard formalism to express properties of XML documents
   2. [FO2(<,+1, ) on Data Trees, Data Tree Automata and Branching Vector Addition Systems](https://hal.inria.fr/hal-00769249v3).  
       Florent Jacquemard, Luc Segoufin, Jérémie Dimino.   
       Logical Methods in Computer Science, 12 (2), pp.32, 2016.  
@@ -20,6 +22,7 @@ description: publication list
       Luis Barguñó, Carlos Creus, Guillem Godoy, Florent Jacquemard, Camille Vacher.  
       Logical Methods in Computer Science, 9 (2), pp.1-39, 2013.  
   *(on a class of tree automata able to verify integrity and access-control constraints on XML documents)*
+
 
 - online book [Tree Automata Techniques and Applications](http://tata.gforge.inria.fr) ([pdf]({{ site.url }}/files/tata.pdf)).
 
