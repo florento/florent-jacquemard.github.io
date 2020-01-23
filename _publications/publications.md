@@ -9,7 +9,7 @@ description: publication list
 
 * 3 representative publications (in computer music, XML processing and constrained tree automata theory)
 
-a theoretical study of the Montgeau-Sankoff edit distance, designed for digital musicology:
+a theoretical study of the [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit distance, designed for digital musicology:
 
    1. [Weighted Automata Computation of Edit Distances with Consolidations and Fragmentations](https://hal.inria.fr/hal-01857267v4).
       Mathieu Giraud, Florent Jacquemard.
