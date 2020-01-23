@@ -3,17 +3,15 @@ title: publications
 description: publication list
 ---
 	
-* list of [selected publications](https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Florent+Jacquemard&annee_publideb=2007&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css) since 2007 from HAL (as provided by [HAL-INRIA](https://hal.inria.fr)). In reverse chronological order 
+- list of [selected publications](https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Florent+Jacquemard&annee_publideb=2007&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css) since 2007 from HAL (as provided by [HAL-INRIA](https://hal.inria.fr)). In reverse chronological order 
 (in our community, the authors are generally listed by alphabetic ordering).
 
 
-* 3 representative publications (in computer music, XML processing and constrained tree automata theory)
-
-a theoretical study of the [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit distance, designed for digital musicology:
-
-   1. [Weighted Automata Computation of Edit Distances with Consolidations and Fragmentations](https://hal.inria.fr/hal-01857267v4).
-      Mathieu Giraud, Florent Jacquemard.
-      Information and Computation, Elsevier, 2020.
+- 3 representative publications (in computer music, XML processing and constrained tree automata theory):  
+  a theoretical study of the [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit distance, designed for digital musicology:  
+  1. [Weighted Automata Computation of Edit Distances with Consolidations and Fragmentations](https://hal.inria.fr/hal-01857267v4).  
+     Mathieu Giraud, Florent Jacquemard.  
+     Information and Computation, Elsevier, 2020.  
       
 on the expressiveness of a relevant fragment of XPath, 
 the standard formalism to express properties of XML documents:
