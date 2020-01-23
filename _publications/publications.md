@@ -1,4 +1,4 @@
----
+----
 title: publications
 description: publication list
 ---
@@ -12,22 +12,15 @@ description: publication list
   1. [Weighted Automata Computation of Edit Distances with Consolidations and Fragmentations](https://hal.inria.fr/hal-01857267v4).  
      Mathieu Giraud, Florent Jacquemard.  
      Information and Computation, Elsevier, 2020.  
-      
-on the expressiveness of a relevant fragment of XPath, 
-the standard formalism to express properties of XML documents:
+  on the expressiveness of a relevant fragment of XPath, the standard formalism to express properties of XML documents:  
+  2. [FO2(<,+1, ) on Data Trees, Data Tree Automata and Branching Vector Addition Systems](https://hal.inria.fr/hal-00769249v3).  
+      Florent Jacquemard, Luc Segoufin, Jérémie Dimino.   
+      Logical Methods in Computer Science, 12 (2), pp.32, 2016.  
+  on a class of tree automata able to verify integrity and access-control constraints on XML documents:  
+  3. [Decidable Classes of Tree Automata Mixing Local and Global Constraints Modulo Flat Theories](https://hal.inria.fr/hal-00852382).  
+      Luis Barguñó, Carlos Creus, Guillem Godoy, Florent Jacquemard, Camille Vacher.  
+      Logical Methods in Computer Science, 9 (2), pp.1-39, 2013.  
 
-   2. [FO2(<,+1, ) on Data Trees, Data Tree Automata and Branching Vector Addition Systems](https://hal.inria.fr/hal-00769249v3).
-      Florent Jacquemard, Luc Segoufin, Jérémie Dimino. 
-      Logical Methods in Computer Science, 12 (2), pp.32, 2016.
+- online book [Tree Automata Techniques and Applications](http://tata.gforge.inria.fr) ([pdf]({{ site.url }}/files/tata.pdf)).
 
-on a class of tree automata able to verify integrity and access-control constraints on XML documents:
-
-   3. [Decidable Classes of Tree Automata Mixing Local and Global Constraints Modulo Flat Theories](https://hal.inria.fr/hal-00852382).
-      Luis Barguñó, Carlos Creus, Guillem Godoy, Florent Jacquemard, Camille Vacher. 
-      Logical Methods in Computer Science, 9 (2), pp.1-39, 2013. 
-
-
-* online book [Tree Automata Techniques and Applications](http://tata.gforge.inria.fr) ([pdf]({{ site.url }}/files/tata.pdf)).
-
-
-* [Habilitation a diriger des recherches](https://tel.archives-ouvertes.fr/tel-00643595/file/plan.pdf) - 2011 ([slides]({{ site.url }}/files/slides/slides-hdr.pdf)).
+- [Habilitation a diriger des recherches](https://tel.archives-ouvertes.fr/tel-00643595/file/plan.pdf) - 2011 ([slides]({{ site.url }}/files/slides/slides-hdr.pdf)).
