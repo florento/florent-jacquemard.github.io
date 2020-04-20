@@ -3,9 +3,9 @@ title: news
 description: activities
 ---
 
-- **2 new Ph.D thesis proposals:** for
+- **2 new Ph.D thesis proposals** for
     [Campagne des contrats doctoraux EDITE 2020](https://www.edite-de-paris.fr/?p=431):
-  - [End-to-end Automated Drum Transcription](files/news/ADT-EDITE.pdf).
+  - [End-to-end Automated Drum Transcription](files/news/ADT-EDITE.pdf),
   - [Structured models for music information processing](files/news/notation-EDITE.pdf).
 
 - **research internship proposal**: 
