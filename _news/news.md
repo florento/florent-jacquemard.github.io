@@ -3,12 +3,13 @@ title: news
 description: activities
 ---
 
-- **2 new Ph.D thesis proposals:**: 
-    [Campagne des contrats doctoraux EDITE 2020](https://www.edite-de-paris.fr/?p=431)
+- **2 new Ph.D thesis proposals:** for
+    [Campagne des contrats doctoraux EDITE 2020](https://www.edite-de-paris.fr/?p=431):
   - [End-to-end Automated Drum Transcription](files/news/ADT-EDITE.pdf).
   - [Structured models for music information processing](files/news/notation-EDITE.pdf).
 
-- **research internship proposal**: [Automated Transcription of Jazz Soli](files/news/AutomatedTranscriptionJazzSoli.pdf).
+- **research internship proposal**: 
+  - [Automated Transcription of Jazz Soli](files/news/AutomatedTranscriptionJazzSoli.pdf).
 
 - [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. To appear in [Information & Computation](https://www.journals.elsevier.com/information-and-computation).
 
