@@ -3,6 +3,13 @@ title: old news
 description: archive of deleted news items
 ---
 
+
+- **2 new Ph.D thesis proposals** for
+    [Campagne des contrats doctoraux EDITE 2020](https://www.edite-de-paris.fr/?p=431):
+  - [End-to-end Automated Drum Transcription](files/news/ADT-EDITE.pdf),
+  - [Structured models for music information processing](files/news/notation-EDITE.pdf).
+
+
 representative publication in computer music:
    1. [Model-Based Testing for Building Reliable Realtime Interactive Music Systems](https://hal.archives-ouvertes.fr/hal-01314969).
       Clément Poncelet, Florent Jacquemard. 
