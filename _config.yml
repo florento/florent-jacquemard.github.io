@@ -98,8 +98,9 @@ collections:
   software:
   teaching:
   community:
+ 
 
-
+ 
 # exclude the /vendor directory from the list of folders Jekyll builds. 
 # Otherwise, Jekyll will try to build the directory contents along with the site.
 exclude:

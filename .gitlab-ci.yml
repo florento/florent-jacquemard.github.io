@@ -17,7 +17,8 @@ cache:
 # avoid duplicating the same scripts in every job below
 before_script:
   - gem install bundler
-  - bundle install --path vendor
+  - bundle config set path 'vendor'
+  - bundle install
 
 # main job for GitLab Pages is called pages 
 # run on a push on master branch only
