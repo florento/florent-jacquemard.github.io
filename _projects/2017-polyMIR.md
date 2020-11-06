@@ -1,9 +1,9 @@
 ---
 name: PolyMIR 
-network: emergence Sorbonne Universités
+network: Émergence Sorbonne Universités
 duration: 2017 &mdash; 2018
 fullname: Music Information Retrieval in Polyphonic Corpora
 ---
 
-18 months exploratory project between IReMus, Ircam/STMS and CNAM-CEDRIC.
+18 months exploratory project in digital musicalogy between IReMus, [Ircam/STMS](https://www.stms-lab.fr) and CNAM-CEDRIC.
 
