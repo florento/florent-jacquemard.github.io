@@ -1,4 +1,5 @@
 # Site settings
+
 title: "Florent Jacquemard"
 email: florent.jacquemard@inria.fr
 description: > # this means to ignore newlines until "baseurl:"
@@ -85,9 +86,6 @@ resume_print_social_links:      true
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
-
-
-
 collections:
   news:
   research:
@@ -100,3 +98,9 @@ collections:
   software:
   teaching:
   community:
+
+
+# exclude the /vendor directory from the list of folders Jekyll builds. 
+# Otherwise, Jekyll will try to build the directory contents along with the site.
+exclude:
+  - vendor

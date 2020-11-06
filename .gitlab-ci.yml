@@ -1,36 +1,43 @@
-# requiring the environment of Ruby 2.3.x
-image: ruby:2.6.5
+# requiring the environment of Ruby 2.7.x
+image: ruby:2.7
 
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
-# add cache to 'vendor' for speeding up builds
+workflow:
+  rules:
+    - if: '$CI_COMMIT_BRANCH'
+
+# cache dependencies to 'vendor/' dir for speeding up builds
 cache:
-  paths: 
+  paths:
     - vendor/
 
+# avoid duplicating the same scripts in every job below
 before_script:
-#  - bundle install --path vendor
+  - gem install bundler
+  - bundle install --path vendor
 
-# add a job called 'test'
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test # generating site folder to be browsed or download
-  except:
-  - master # the 'test' job will affect all branches expect 'master'
-
-# the 'pages' job will deploy and build your site to the 'public' path
+# main job for GitLab Pages is called pages 
+# run on a push on master branch only
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+    - bundle exec jekyll build -d public
   artifacts:
     paths:
-    - public
-  only:
-  - master # this job will affect only the 'master' branch
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+
+# add another job to test every push to every branch except the master branch
+test:
+  stage: test
+  script:
+    - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+      - test
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "master"'
