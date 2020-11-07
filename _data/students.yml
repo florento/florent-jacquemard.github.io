@@ -1,6 +1,12 @@
 # Students
 # Master and Bachelor interns
 
+- name: Leyla Villaroel
+  duration: 2020
+  degree: Master
+  codir: Philippe Rigaux
+  school: Pontificia Universidad Católica de Chile (program between Inria Chile and Chile Universities)
+  title: On-the-fly music transcription.
 
 - name: Henry Boisgibault
   duration: 2017
