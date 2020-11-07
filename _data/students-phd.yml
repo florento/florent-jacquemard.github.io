@@ -1,6 +1,11 @@
 # PhD Students
 
-
+- name: Lydia Rodriguez de la Nava
+  degree: Phd
+  duration: 2020 &mdash; 2023
+  title: Structured Models for Written Music Processing
+  codir: Philippe Rigaux
+  school: INRIA, EDITE Paris
 
 - name: Francesco Foscarin
   degree: Phd
