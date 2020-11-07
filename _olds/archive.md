@@ -4,16 +4,27 @@ description: archive of deleted news items
 ---
 
 
+
+
+
+- **PhD fellowship** funded by Inria on music information retrieval, music symbolic representations: [Structured Models for Written Music Processing](files/news/proposal-Codex.pdf).
+
+- algorithms and tool for the comparison of music score files: identification and visualization of differences, similarly to the Unix diff tool for text files (PhD work of Francesco Foscarin, in collaboration with Raphaël Fournier-S’Niehotta)
+  - [paper](https://hal.inria.fr/hal-02267454) at [DLfM'19](https://dlfm.web.ox.ac.uk),
+  - presentation at [ISMIR'19](https://ismir2019.ewi.tudelft.nl) LBD: ["Computation and Visualization of Differences between two XML Music Score Files"](https://hal.inria.fr/hal-02309923).
+  
+- new version of the [qparse](https://gitlab.inria.fr/qparse/qparselib) library for automated music transcription.
+
+- paper at [SMC'19](http://smc2019.uma.es) on corpus-based inference of weighted grammars for rhythm representation: "[Modeling and Learning Rhythm Structure](https://hal.inria.fr/hal-02024437)" with Francesco Foscarin and Philippe Rigaux.
+
+- paper at [MCM'19](https://mcm19.etsisi.upm.es) on rhythm transcription: "[A Parse-based Framework for Coupled Rhythm Quantization and Score Structuring](https://hal.inria.fr/hal-01988990)" with Francesco Foscarin, Philippe Rigaux and Masahiko Sakai ([slides](https://hal.inria.fr/hal-01988990v2/file/MCM-qparse-slides.pdf)).
+
 - **2 new Ph.D thesis proposals** for
     [Campagne des contrats doctoraux EDITE 2020](https://www.edite-de-paris.fr/?p=431):
   - [End-to-end Automated Drum Transcription](files/news/ADT-EDITE.pdf),
   - [Structured models for music information processing](files/news/notation-EDITE.pdf).
 
 
-representative publication in computer music:
-   1. [Model-Based Testing for Building Reliable Realtime Interactive Music Systems](https://hal.archives-ouvertes.fr/hal-01314969).
-      Clément Poncelet, Florent Jacquemard. 
-      Science of Computer Programming, 132 (2), pp.143-172, Elsevier, 2016.
 
 
 - [poster] with Francesco Foscarin, Raphaël Fournier-S'Niehotta, Philippe Rigaux, at [DMRN+14](https://www.qmul.ac.uk/dmrn/dmrn-14/) Dec. 2019, Queen Mary University of London: “AMT for Musicians: Performed-MIDI-to-Score Transcription”.

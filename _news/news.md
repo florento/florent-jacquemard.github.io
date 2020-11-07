@@ -3,20 +3,30 @@ title: news
 description: activities
 ---
 
-- **PhD fellowship** funded by Inria on music information retrieval, music symbolic representations: [Structured Models for Written Music Processing](files/news/proposal-Codex.pdf).
+
+
+
+
+
+
+- INRIA Exploratory Action  **Codex**   (2020-2023) on the formal representation and processing of symboliques music data, and applications to IE in digital music score databases, computational musicology, music transcription and corpus digitization. The project is starting in November 2020 with the PhD of Lydia Rodriguez de la Nava.
+
+- French national project **CollabScore** (ANR 2020-2023), aiming at the development of approaches for music score digitilization in semi-structured formats, with Optical Music Recognition (OMR) and methods for large scale collaborative correction and the valorization of music collections. It implies [Cedric](https://cedric.cnam.fr)/CNAM (coordinator), Irisa, [IReMus](https://www.iremus.cnrs.fr)/CNRS/SU, the [BnF](https://gallica.bnf.fr/) (French National Library) and 2 libraries of [Fondation Royaumont](https://www.royaumont.com/fr/les-bibliotheques).
+
+- European H2020-SC6-TRANSFORMATIONS projet **Polifonia**  (2021-2024) *a digital harmoniser for musical heritage knowledge*. The objective of the project is to realise an ecosystem of computational methods and tools supporting discovery, extraction, encoding, interlinking, classification, exploration of, and access to, European musical heritage knowledge on the Web, and to demonstrate that these tools improve the state of the art of Social Science and Humanities methodologies. The partners are Alma Mater Studiorum, Università di Bologna (coordinateur), Open University, Stichting Vrije Universiteit Amsterdam, Insight Centre for Data Analytics, NUI Galway, Istituto Centrale del Catalogo e della Documentazione, Istituto Centrale per i Beni Sonori e Audiovisivi, IReMus/CNRS/SU, Cedric/CNAM, Netherlands Institute for Sound and Vision, Royal Netherlands Academy of Arts and Sciences, Digital Paths srl.
+
+  
 
 - **research internship proposal**: 
-  - [Automated Transcription of Jazz Soli](files/news/AutomatedTranscriptionJazzSoli.pdf).
+  [Automated Transcription of Jazz Soli](files/news/AutomatedTranscriptionJazzSoli.pdf).
 
-- [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. To appear in [Information & Computation](https://www.journals.elsevier.com/information-and-computation).
 
-- algorithms and tool for the comparison of music score files: identification and visualization of differences, similarly to the Unix diff tool for text files (PhD work of Francesco Foscarin, in collaboration with Raphaël Fournier-S’Niehotta)
-  - [paper](https://hal.inria.fr/hal-02267454) at [DLfM'19](https://dlfm.web.ox.ac.uk),
-  - presentation at [ISMIR'19](https://ismir2019.ewi.tudelft.nl) LBD: ["Computation and Visualization of Differences between two XML Music Score Files"](https://hal.inria.fr/hal-02309923).
-  
-- new version of the [qparse](https://gitlab.inria.fr/qparse/qparselib) library for automated music transcription.
 
-- paper at [SMC'19](http://smc2019.uma.es) on corpus-based inference of weighted grammars for rhythm representation: "[Modeling and Learning Rhythm Structure](https://hal.inria.fr/hal-02024437)" with Francesco Foscarin and Philippe Rigaux.
+- [ASAP](https://github.com/fosfrancesco/asap-dataset): a new dataset of aligned piano music sheets and performances for the evaluation of automated transcription. see [ISMIR'20 paper](https://program.ismir2020.net/poster_4-09.html).
 
-- paper at [MCM'19](https://mcm19.etsisi.upm.es) on rhythm transcription: "[A Parse-based Framework for Coupled Rhythm Quantization and Score Structuring](https://hal.inria.fr/hal-01988990)" with Francesco Foscarin, Philippe Rigaux and Masahiko Sakai ([slides](https://hal.inria.fr/hal-01988990v2/file/MCM-qparse-slides.pdf)).
+
+
+- [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. To appear in [Information & Computation](https://www.journals.elsevier.com/information-and-computation) 2020.
+
+
 
