@@ -284,7 +284,7 @@
             ({{ project.network }})
           </h3>        
           {% if project.fullname %}<div class="subheading mb-3">{{ project.fullname }}</div>{% endif %}
-          {% if project.role %}<div class="lead">role: {{ project.role }}</div>{% endif %}
+          {% if project.role %}<div class="h6 thick mb-3">role: {{ project.role }}</div>{% endif %}
           <p class="resume-item-copy">{{ project.content | markdownify }}</p>
         </div>
         <div class="resume-date text-md-right">

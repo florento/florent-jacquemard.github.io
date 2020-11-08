@@ -1,7 +1,6 @@
 ---
 name: Rossignol 
 fullname: Algebraic properties and probabilistic models of security protocols
-link: "http://www.lsv.fr/Projects/anr-avote/"
 network: ACI Securite Informatique
 role: responsible for the partner LSV/ENS Cachan 
 duration: 2003 &mdash; 2006
