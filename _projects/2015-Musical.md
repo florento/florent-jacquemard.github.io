@@ -1,5 +1,6 @@
 ---
 name: MusICAL 
+fullname: Interaction Calcul Algorithmique Langages appliqués à la Musique
 link: "http://repmus.ircam.fr/musical/home"
 network: RNSC
 duration: 2015

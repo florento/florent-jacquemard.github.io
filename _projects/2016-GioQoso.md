@@ -1,5 +1,6 @@
 ---
 name: GioQoso 
+fullname: Gestion de la Qualité des partitions musicales ouvertes
 link: "https://gioqoso.irisa.fr"
 network: CNRS defi Mastodons 2016
 duration: 2016 &mdash; 2018
