@@ -9,7 +9,7 @@ description: activities
 
 
 
-- INRIA Exploratory Action  **Codex**   (2020-2023) on the formal representation and processing of symboliques music data, and applications to IE in digital music score databases, computational musicology, music transcription and corpus digitization. The project is starting in November 2020 with the PhD of Lydia Rodriguez de la Nava.
+- INRIA Exploratory Action  **Codex**   (2020-2023) on the formal representation and processing of symbolic music data, and applications to information retrieval in digital music score databases, computational musicology, music transcription and corpus digitization. The project is starting in November 2020 with the PhD of Lydia Rodriguez de la Nava.
 
 - French national project **CollabScore** (ANR 2020-2023), aiming at the development of approaches for music score digitilization in semi-structured formats, with Optical Music Recognition (OMR) and methods for large scale collaborative correction and the valorization of music collections. It implies [Cedric](https://cedric.cnam.fr)/CNAM (coordinator), Irisa, [IReMus](https://www.iremus.cnrs.fr)/CNRS/SU, the [BnF](https://gallica.bnf.fr/) (French National Library), 2 libraries of [Fondation Royaumont](https://www.royaumont.com/fr/les-bibliotheques), and the company [Antescofo](https://www.antescofo.com).
 
