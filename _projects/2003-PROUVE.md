@@ -1,5 +1,6 @@
 ---
 name: Prouvé 
+fullname: Automated Verification Tools for Cryptographic Protocols
 link: "http://www.lsv.fr/Projects/prouve/"
 network: RNTL
 duration: 2003 &mdash; 2006

@@ -1,5 +1,6 @@
 ---
 name: CALIFE 
+fullname: Environment for Formal Proof and Test of Algorithms used in Telecommunication
 network: RNRT
 duration: 1999 &mdash; 2000
 ---
