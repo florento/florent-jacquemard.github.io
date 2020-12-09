@@ -15,7 +15,7 @@ cache:
     - vendor/
 
 # avoid duplicating the same scripts in every job below
-before_script:
+#before_script:
 #  - gem install bundler
 #  - bundle install --path vendor
 # [DEPRECATED] The `--path` flag is deprecated because it relies on being remembered across bundler invocations, 
