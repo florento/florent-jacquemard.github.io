@@ -17,8 +17,12 @@ cache:
 # avoid duplicating the same scripts in every job below
 before_script:
   - gem install bundler
-#  - bundle config set path vendor'
-  - bundle install --path vendor
+#  - bundle install --path vendor
+# [DEPRECATED] The `--path` flag is deprecated because it relies on being remembered across bundler invocations, 
+# which bundler will no longer do in future versions. 
+# Instead please use `bundle config set path 'vendor'`, and stop using this flag
+  - bundle config set path vendor'
+  - bundle install
 
 # main job for GitLab Pages is called pages 
 # run on a push on master branch only
