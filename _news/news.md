@@ -17,8 +17,9 @@ description: activities
 
   
 
-- **research internship proposal**: 
-  [Automated Transcription of Jazz Soli](files/news/AutomatedTranscriptionJazzSoli.pdf).
+- **research internship proposals**: 
+  - [End-2-End Automated Drum Transcription](files/ADT.pdf)
+  - [Automated Transcription of Jazz Soli](files/AutomatedTranscriptionJazzSoli.pdf)
 
 
 
