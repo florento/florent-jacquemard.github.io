@@ -1,5 +1,5 @@
 # requiring the environment of Ruby 2.7.x
-image: ruby:2.7
+image: ruby:3.0
 
 variables:
   JEKYLL_ENV: production
@@ -16,8 +16,9 @@ cache:
 
 # avoid duplicating the same scripts in every job below
 before_script:
-  - gem install bundler
-#  - bundle install --path vendor
+  - ruby -v # Print out ruby version for debugging
+# - gem install bundler
+# - bundle install --path vendor  # Install dependencies into ./vendor/ruby
 # [DEPRECATED] The `--path` flag is deprecated because it relies on being remembered across bundler invocations, 
 # which bundler will no longer do in future versions. 
 # Instead please use `bundle config set path 'vendor'`, and stop using this flag
