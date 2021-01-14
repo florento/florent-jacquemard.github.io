@@ -9,13 +9,17 @@ description: activities
 
 - European H2020-SC6-TRANSFORMATIONS projet [**Polifonia**](http://polifonia-project.eu)  (2021-2024) *a digital harmoniser for musical heritage knowledge*. The objective of the project is to realise an ecosystem of computational methods and tools supporting discovery, extraction, encoding, interlinking, classification, exploration of, and access to, European musical heritage knowledge on the Web, and to demonstrate that these tools improve the state of the art of Social Science and Humanities methodologies. The partners are Alma Mater Studiorum, Università di Bologna (coordinateur), Open University, Stichting Vrije Universiteit Amsterdam, Insight Centre for Data Analytics, NUI Galway, Istituto Centrale del Catalogo e della Documentazione, Istituto Centrale per i Beni Sonori e Audiovisivi, IReMus/CNRS/SU, Cedric/CNAM, Netherlands Institute for Sound and Vision, Royal Netherlands Academy of Arts and Sciences, Digital Paths srl.
   
+- [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. [Information & Computation](https://doi.org/10.1016/j.ic.2020.104652) in Press, Nov. 2020.
+  
+- [ASAP](https://github.com/fosfrancesco/asap-dataset): a new dataset by Francesco Foscarin, made of aligned piano music sheets and performances for the evaluation of automated transcription, see [ISMIR'20 paper](https://program.ismir2020.net/poster_4-09.html).
+  
 - **research internship proposals**: 
   - [End-2-End Automated Drum Transcription](files/ADT.pdf)
   - [Automated Transcription of Jazz Soli](files/AutomatedTranscriptionJazzSoli.pdf)
 
-- [ASAP](https://github.com/fosfrancesco/asap-dataset): a new dataset by Francesco Foscarin, made of aligned piano music sheets and performances for the evaluation of automated transcription, see [ISMIR'20 paper](https://program.ismir2020.net/poster_4-09.html).
-
-- [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. To appear in [Information & Computation](https://www.journals.elsevier.com/information-and-computation) 2020.
+  
+  
+  
 
 
 
