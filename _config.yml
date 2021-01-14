@@ -23,7 +23,7 @@ resume_avatar:                  "true"
 resume_name:                    "Florent Jacquemard"
 resume_firstname:               "Florent"
 resume_lastname:                "Jacquemard"
-resume_title:                   "Research Scientist at Inria, on leave at CNAM, Paris"
+resume_title:                   "Inria Researcher on leave at CNAM, Paris"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "florent.jacquemard@inria.fr"

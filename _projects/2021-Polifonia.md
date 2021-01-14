@@ -1,5 +1,6 @@
 ---
 name: Polifonia
+link: "http://polifonia-project.eu"
 fullname: A digital harmoniser for musical heritage knowledge
 network: H2020-SC6-TRANSFORMATIONS
 duration: 10-2021 &mdash; 10-2025
