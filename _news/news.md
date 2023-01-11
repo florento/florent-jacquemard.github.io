@@ -9,12 +9,21 @@ description: activities
   - [MusicXML output for an Intermediate Representation of Music Scores](files/propositions/musicxml.pdf)
   - [Implantation and Evaluation of a melodic similarity distance](files/propositions/MontgeauSankoff.pdf)
 
+- [poster](https://hal.archives-ouvertes.fr/hal-03847232) presentation by Lydia Rodriguez-de la Nava at the 9th International Conference on Digital Libraries for Musicology [DLfM 2022](https://dlfm.web.ox.ac.uk), joined with the annual conference of the International Association of Music Libraries (IAML): MIDI To Score Automated Drum Transcription.
+
 - [paper](https://hal.archives-ouvertes.fr/hal-03815760v3) at [WoRMS’22](https://sites.google.com/view/worms2022) on Automated Transcription of Electronic Drumkits.
   [slides](https://project.inria.fr/codex/files/2023/01/WoRMS22.pdf) of the presentation.
 
-- [talk](https://project.inria.fr/codex/files/2022/10/AEx20221006.pdf) at Inria’s *1/2h de science*, a 30 min presentation of the Exploratory Action [Codex]((https://project.inria.fr/codex)) on *Musical Notation Processing*, at Inria Paris center, with a focus on our activity on transcription.
+- [talk](https://project.inria.fr/codex/files/2022/10/AEx20221006.pdf) at Inria’s *1/2h de science*, 6 oct. 2022. A 30 min presentation of the Exploratory Action [Codex]((https://project.inria.fr/codex)) on *Musical Notation Processing*, at Inria Paris center, with a focus on our activity on transcription.
+
+- meeting of the JSPS Kakenhi, 15-16 sept. 2022, Inria center, and Maison Suger, Paris.
 
 - [paper](https://hal.inria.fr/hal-01857267) on the computation of [Montgeau-Sankoff](https://link.springer.com/article/10.1007/BF00117340) edit-distance measuring melodic similarity, based on weighted automata techniques. [Information & Computation](https://doi.org/10.1016/j.ic.2020.104652) vol. 282, 2022.
+
+- [Seminar](https://project.inria.fr/codex/files/2011/12/EPFL-DISOPT-220620.pdf) at EPFL, Bernoulli Centre, 
+  organized by the [Chair of Discrete Optimization](https://www.epfl.ch/labs/disopt/),
+  and in presence of members of the Chair of Discrete Optimization and [DCML](https://www.epfl.ch/labs/dcml/).
+  title: Automated Music Transcription based on Formal Language Models.
 
 - INRIA Exploratory Action [**Codex**](https://project.inria.fr/codex) (2020-2023) on the formal representation and processing of symbolic music data, and applications to information retrieval in digital music score databases, computational musicology, music transcription and corpus digitization. The project is starting in November 2020 with the PhD of Lydia Rodriguez de la Nava.
 
