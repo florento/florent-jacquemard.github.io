@@ -6,8 +6,8 @@ description: archive of deleted news items
 
 
 - **research internship proposals**: 
-  - [End-2-End Automated Drum Transcription](files/ADT.pdf)
-  - [Automated Transcription of Jazz Soli](files/AutomatedTranscriptionJazzSoli.pdf)
+  - [End-2-End Automated Drum Transcription](files/propositions/ADT.pdf)
+  - [Automated Transcription of Jazz Soli](files/propositions/AutomatedTranscriptionJazzSoli.pdf)
 
   
 - [ASAP](https://github.com/fosfrancesco/asap-dataset): a new dataset by Francesco Foscarin, made of aligned piano music sheets and performances for the evaluation of automated transcription, see [ISMIR'20 paper](https://program.ismir2020.net/poster_4-09.html).
