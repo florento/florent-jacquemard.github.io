@@ -3,6 +3,7 @@ title: news
 description: activities
 ---
 
+
 - **research internship proposals**: 
   - [Pitch Spelling in Jazz](files/propositions/spellingJazz.pdf)
   - [Tempo Estimation in Automatic Music Transcription](files/propositions/tempo.pdf)
