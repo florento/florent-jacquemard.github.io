@@ -6,8 +6,8 @@ EDITE Paris Doctoral School
 ### Context
 
 The identification of differences between two musical scores (in the form of XML documents), as well as the definition of similarity metrics adapted to such documents, are difficult problems in the extraction of symbolic musical information.
-Measures of melodic similarity have been proposed, the most cited being the edit distance of Mongeau & Sankoff [1,2]. They are used in fields such as computational musicology (for example for the identification of similar passages), or the search for information in the databases of digital musical scores (for example for the approximate search on the basis of a pattern ). These measurements, relating to representations by character strings of monophonic extracts, capture only very partially the information contained in a musical score.
-It is indeed widely accepted that musical notation represents, well beyond simple sequences of notes, a *hierarchical* organization of melodic, harmonic, rhythmic information, induced by non-local dependencies between musical objects [3] . These structural aspects are essential to the interpretation and analysis of pieces, and cannot be ignored for a comprehensive comparison of scores.
+Measures of melodic similarity have been proposed, the most cited being the edit distance of Mongeau & Sankoff [1,2]. They are used in fields such as computational musicology (for example for the identification of similar passages), or the search for information in the databases of digital musical scores (for example for the approximate search on the basis of a pattern ). These measurements, relating to representations by character strings of monophonic extracts, capture only very partially the information contained in a musical score.  
+It is indeed widely accepted that musical notation represents, well beyond simple sequences of notes, a *hierarchical* organization of melodic, harmonic, rhythmic information, induced by non-local dependencies between musical objects [3] . These structural aspects are essential to the interpretation and analysis of pieces, and cannot be ignored for a comprehensive comparison of scores.  
 Moreover, the distances for the comparison of textual documents are not directly applicable to digital musical scores, due to the verbosity, redundancy and ambiguity of the most widespread exchange formats (musicXML and MEI).
 
 ### Objectives
@@ -20,11 +20,9 @@ These results will be applied to problems such as the approximate querying of di
 
 ### Application
 
-Candidates with a master's degree in computer science, interested in finding musical information, are welcome. This project requires a certain taste for theoretical matters, and creativity in thinking and programming. Prior knowledge of sequence and tree algorithms and musical notation is an important asset but not neca requirement.
-
-The thesis will take place at the Cedric laboratory of the CNAM, Paris.
-
-Applications shall be made via https://myedb.edite-de-paris.fr
+Candidates with a master's degree in computer science, interested in finding musical information, are welcome. This project requires a certain taste for theoretical matters, and creativity in thinking and programming. Prior knowledge of sequence and tree algorithms and musical notation is an important asset but not neca requirement.  
+The thesis will take place at the Cedric laboratory of the CNAM, Paris.  
+Applications shall be made via https://myedb.edite-de-paris.fr  
 For more information on the application process:
 https://www.edite-de-paris.fr/lancement-de-la-campagne-edite-2023
 or contact florent.jacquemard@inria.fr
