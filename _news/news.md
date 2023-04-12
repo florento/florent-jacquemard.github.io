@@ -5,9 +5,16 @@ description: activities
 
 - **PhD proposal**: 
  [Grammar Generative Models for Music Notation Processing](files/propositions/generation-en.pdf).
- The objective of this thesis proposal is the development, in the context of musical notation processing, of deep generative models guided by a grammar, in order to produce well-formed structured results.
+The objective of this thesis proposal is the development, in the context of musical notation processing, of deep generative models guided by a grammar, in order to produce well-formed structured results.  
 The main aimed application is the automatic transcription of piano performances recorded in the symbolic MIDI format.  
 French proposal: [Modèles génératifs grammaticaux pour le traitement de la notation musicale](files/propositions/generation-fr.pdf)
+
+- **PhD proposal**: 
+[Digital Music Score Distances](files/propositions/distance-en.pdf).
+This thesis project focuses on the study of similarity metrics and algorithms identifying the differences between digital musical scores, represented in the form of labeled trees.  
+The targeted applications are the approximate querying of collections of digital music scores, the development of tools for collaborative musical writing and version management and computational musicology, in particular corpus musicology, in collaboration with specialists in this field.  
+French proposal: [Distances entre partitions musicales numériques](files/propositions/distance-fr.pdf)
+
 
 - **research internship proposals**: 
   - [Pitch Spelling in Jazz](files/propositions/spellingJazz.pdf)
