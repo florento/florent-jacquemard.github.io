@@ -3,6 +3,11 @@ title: news
 description: activities
 ---
 
+- **PhD proposal**: 
+ [Grammar Generative Models for Music Notation Processing](files/propositions/generation-en.pdf).
+ The objective of this thesis proposal is the development, in the context of musical notation processing, of deep generative models guided by a grammar, in order to produce well-formed structured results.
+The main aimed application is the automatic transcription of piano performances recorded in the symbolic MIDI format.  
+French proposal: [Modèles génératifs grammaticaux pour le traitement de la notation musicale](files/propositions/generation-fr.pdf)
 
 - **research internship proposals**: 
   - [Pitch Spelling in Jazz](files/propositions/spellingJazz.pdf)
