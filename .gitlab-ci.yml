@@ -1,5 +1,5 @@
 # requiring the environment of Ruby 2.7.x
-image: ruby:3.0
+image: ruby:3.1.2
 
 variables:
   JEKYLL_ENV: production
@@ -18,12 +18,8 @@ cache:
 before_script:
   - ruby -v # Print out ruby version for debugging
 # - gem install bundler
-# - bundle install --path vendor  # Install dependencies into ./vendor/ruby
-# [DEPRECATED] The `--path` flag is deprecated because it relies on being remembered across bundler invocations, 
-# which bundler will no longer do in future versions. 
-# Instead please use `bundle config set path 'vendor'`, and stop using this flag
-  - bundle config set path 'vendor'
-  - bundle install
+#  - bundle config set --local path 'vendor'
+#  - bundle update
 
 # main job for GitLab Pages is called pages 
 # run on a push on master branch only
