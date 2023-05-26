@@ -44,8 +44,8 @@ cache:
 
 # avoid duplicating the same scripts in every job below
 before_script:
-# - ruby -v # Print out ruby version for debugging
-# - gem install bundler
-#  - bundle config set --local path 'vendor'
+ - ruby -v # Print out ruby version for debugging
+ - gem install bundler
+  - bundle config set --local path 'vendor'
 #  - bundle update
 
