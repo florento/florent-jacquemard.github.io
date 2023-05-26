@@ -1,27 +1,15 @@
-# Resume template
-*A simple Jekyll + GitHub Pages powered resume template.*
+ # source of homepage
+for 
+```
+florent-jacquemard.github.io
+```
 
-![img](images/screenshot.png)
-
-## sources
-
+### source
+It is based on [jglovier](https://github.com/jglovier)'s resume template for Jekyll
 * [resume template for jekyll](http://resume-template.joelglovier.com) - [github](https://github.com/jglovier/resume-template)
 * [resume startbootstrap theme](https://startbootstrap.com/template-overviews/resume/)
 
-
-## revision details
-
-* _config-template.yml is the original config file from [resume template for jekyll](http://resume-template.joelglovier.com)
-* _config.yml is a revision with new contents
-* _layouts/resume-template.html is the original html from [resume template for jekyll](http://resume-template.joelglovier.com)
-* _layouts/resume.html is a  modified version to fit with my content and the style of [resume startbootstrap theme](https://startbootstrap.com/template-overviews/resume/)
-* 
-
-
-
-## Docs
-
-### Running locally
+### Test
 
 To test locally, run the following in your terminal:
 
@@ -53,23 +41,6 @@ Most of the content configuration will take place in the `/_layouts/resume.html`
 To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
 
 ### Themes
+The page uses the (unique) theme of `resume-template`.
 
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
-
-## License
-
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Homer J. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material. 
 
