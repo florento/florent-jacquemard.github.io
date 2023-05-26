@@ -4,9 +4,7 @@
 pages:
   stage: deploy
   tags:
-    - ci.inria.fr
-    - small
-  image: docker:stable
+    - ci.local
   script:
     - bundle exec jekyll build -d public
   artifacts:
