@@ -1,3 +1,31 @@
+---
+# main job for GitLab Pages is called pages 
+# run on a push on master branch only
+pages:
+  stage: deploy
+  tags:
+    - ci.inria.fr
+    - small
+  image: docker:stable
+  script:
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+
+# add another job to test every push to every branch except the master branch
+test:
+  stage: test
+  script:
+    - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+      - test
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "master"'
+
 # requiring the environment of Ruby 2.7.x
 image: ruby:3.1.2
 
@@ -20,27 +48,4 @@ before_script:
 # - gem install bundler
 #  - bundle config set --local path 'vendor'
 #  - bundle update
-
-# main job for GitLab Pages is called pages 
-# run on a push on master branch only
-pages:
-  stage: deploy
-  script:
-    - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-      - public
-  rules:
-    - if: '$CI_COMMIT_BRANCH == "master"'
-
-# add another job to test every push to every branch except the master branch
-test:
-  stage: test
-  script:
-    - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-      - test
-  rules:
-    - if: '$CI_COMMIT_BRANCH != "master"'
 
