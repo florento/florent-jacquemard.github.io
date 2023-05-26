@@ -13,9 +13,9 @@ cache:
 before_script:
  - ruby -v # Print out ruby version for debugging
  - gem install bundler
- - bundle install
- - bundle config set --local path 'vendor' 
-#  - bundle update
+# - bundle config set --local path 'vendor'
+# - bundle install
+# - bundle update
 
 # main job for GitLab Pages is called pages 
 # run on a push on master branch only
