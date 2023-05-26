@@ -5,7 +5,8 @@ email: florent.jacquemard@inria.fr
 description: > # this means to ignore newlines until "baseurl:"
     Florent Jacquemard Homepage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jacquema.gitlabpages.inria.fr" # the base hostname & protocol for your site
+#url: "https://jacquema.gitlabpages.inria.fr" # original URL for gitlab page at Inria
+url: "https://florent-jacquemard.github.io"   
 twitter_username: jekyllrb
 github_username:  florento
 gitlab_username:  jacquema
