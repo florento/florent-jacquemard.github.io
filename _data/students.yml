@@ -1,6 +1,36 @@
 # Students
 # Master and Bachelor interns
 
+- name: Clément Buon
+  duration: 2023
+  degree: Master 1st year 
+  school: INALCO, Université Sorbonne Paris Cité
+  title: development of a MusicXML export facility from an Intermediate Representation of digital music scores
+
+- name: Augustin Bouquillard
+  duration: 2023
+  degree: Licence (Bachelor last year)
+  school: University Paris Dauphine, PSL
+  title: Pitch Spelling algorithms for Jazz
+
+- name: Teysir Bouaeb
+  duration: 2022
+  degree: Master 1st year
+  school: ENSTA, Intitut Polytechnique de Paris
+  title: Parameter optimisation for an Automatic Music Transcription procedure on a monophonic dataset
+
+- name: Augustin Bouquillard
+  duration: 2022
+  degree: Licence (Bachelor 3d year)
+  school: University Paris Dauphine, PSL
+  title: Study of an voice separation algorithm in the context of piano transcription
+
+- name: Martin Digard  
+  duration: 2021
+  degree: Master, 2d year
+  school: INALCO, Université Sorbonne Paris Cité
+  title: Automated Drum Transcription
+
 - name: Leyla Villaroel
   duration: 2021
   degree: Master

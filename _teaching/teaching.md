@@ -6,7 +6,8 @@ description: teaching activities
 
 Some lectures and other teaching activities:
 
-
+- lecture on _Object Oriented Programming with C++_, 2 semesters in 2022-2023 (40 hours / semester)   
+  at the Master on NLP, 1 year, INALCO, Université Sorbonne Paris Cité
 
 - lectures at [ISR](https://isr2019.inria.fr) (International Summer School on Rewriting) in July 2019, on *Rewriting Music*. Slides:
   -  [intro](files/ISR19RewritingMusic-part0.pdf) on Computer Music, 
