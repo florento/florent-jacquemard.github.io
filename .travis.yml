@@ -1,8 +1,0 @@
-language: ruby
-
-script: bundle exec jekyll build
-
-install: bundle install
-
-notifications:
-  email: false
